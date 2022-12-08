@@ -1,0 +1,131 @@
+// Block Backend Ads for a better UX
+
+// Updraft
+.updraft-ad-container.updated {
+  display: none;
+}
+
+// WordFence
+.toplevel_page_Wordfence {
+  .wp-submenu {
+
+    // Help
+    li:nth-last-child(2) {
+      display: none;
+    }
+
+    // Go Pro
+    li:last-child {
+      display: none;
+    }
+  }
+}
+
+// MailPoet
+.toplevel_page_mailpoet-newsletters {
+  .wp-submenu {
+
+    // Help
+    li:nth-last-child(2) {
+      display: none;
+    }
+
+    // Go Pro
+    li:last-child {
+      display: none;
+    }
+  }
+}
+
+// Admin Menu Editor
+.ame-is-pro-version {
+  display: block;
+}
+
+// Awesome Support / Ticket System
+#menu-posts-ticket {
+  .wp-submenu {
+    li:nth-last-child(4) {
+      display: none;
+    }
+
+    li:nth-last-child(3) {
+      display: none;
+    }
+
+    li:nth-last-child(2) {
+      display: none;
+    }
+
+    li:last-child {
+      display: none;
+    }
+  }
+}
+
+// SiteOffline Plugin
+.wpsm-siteoff-line-review-notice {
+  display: none;
+}
+
+// Google Tag-Manager Naggin
+.gtm4wp-notice {
+  display: none;
+}
+
+div.fs-notice.updated,
+div.fs-notice.success,
+div.fs-notice.promotion,
+.fs-slug-foobox-image-lightbox {
+  display: none !important;
+}
+
+.updated {
+  .wbcr-dan-hide-notices {
+    display: none !important;
+  }
+}
+
+// ULike
+.wp-ulike-notice,
+.wp-ulike-notice-id-wp_ulike_upgrade_option_panel {
+  display: none !important;
+}
+
+// Admin Bar user roles
+.fs-slug-hide-admin-bar-based-on-user-roles {
+  display: none !important;
+}
+
+// FooBox
+.fs-slug-foobox-image-lightbox {
+  display: none !important;
+}
+
+.icl_tm_wrap .overlay {
+  display: none !important;
+}
+
+#toplevel_page_wpcas {
+  .wp-submenu li:nth-last-child(2) {
+    display: none;
+  }
+
+  .wp-submenu li:last-child {
+    display: none;
+  }
+}
+
+#menu-posts-popup {
+  a.menu-icon-popup {
+    .wp-menu-name {
+      .update-plugins {
+        display: none !important;
+      }
+    }
+  }
+}
+
+#members_review_notice {
+  display: none !important;
+}

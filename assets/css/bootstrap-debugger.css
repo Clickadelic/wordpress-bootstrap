@@ -1,0 +1,44 @@
+body::after {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  content: "XS";
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  vertical-align: middle;
+  background: orange;
+}
+
+@media (min-width: 576px) {
+  body::after {
+    content: "SM";
+    background: limegreen;
+  }
+}
+@media (min-width: 768px) {
+  body::after {
+    content: "MD";
+    background: red;
+  }
+}
+@media (min-width: 992px) {
+  body::after {
+    content: "LG";
+    background: mediumslateblue;
+  }
+}
+@media (min-width: 1200px) {
+  body::after {
+    content: "XL";
+    background: purple;
+  }
+}
+@media (min-width: 1400px) {
+  body::after {
+    content: "XXL";
+    background: #fc0fa1;
+  }
+}

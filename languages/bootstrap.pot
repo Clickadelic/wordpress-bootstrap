@@ -1,0 +1,1018 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Bootstrap (V5)\n"
+"POT-Creation-Date: 2020-09-17 08:31+0200\n"
+"PO-Revision-Date: 2020-09-17 08:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: 404.php:9
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:18
+msgid "Error 404, the page you were looking for could not be found."
+msgstr ""
+
+#: 404.php:24
+msgid "Maybe a search can help"
+msgstr ""
+
+#: 404.php:30
+msgid "or these links"
+msgstr ""
+
+#: archive.php:8
+msgid "Archive"
+msgstr ""
+
+#: author.php:8
+msgid "About the author"
+msgstr ""
+
+#: author.php:16
+msgid "Author Card Background"
+msgstr ""
+
+#: author.php:37
+msgid "Back"
+msgstr ""
+
+#: author.php:42
+msgid "Posts by"
+msgstr ""
+
+#: author.php:62 category.php:15 front-page.php:60 tag.php:16
+msgid "back"
+msgstr ""
+
+#: author.php:63 category.php:16 front-page.php:61 tag.php:17
+msgid "forward"
+msgstr ""
+
+#: author.php:68
+msgid "Sorry, this author hasn't posted any content yet"
+msgstr ""
+
+#: category.php:9
+msgid "All posts in"
+msgstr ""
+
+#: classes/Class-bootstrap-navwalker.php:376
+msgid "Add menu"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:11
+msgid "Social Media Widget"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:12
+msgid "Show your social media activities"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:42
+#: templates/social-media-footer.php:23
+msgid "Visit our online shop"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:49
+#: templates/social-media-footer.php:30
+msgid "Visit Facebook"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:56
+#: templates/social-media-footer.php:37
+msgid "Visit Twitter"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:63
+#: templates/social-media-footer.php:44
+msgid "Visit Instagram"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:70
+#: templates/social-media-footer.php:51
+msgid "Visit Linkedin"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:77
+#: templates/social-media-footer.php:58
+msgid "Visit GitHub"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:84
+#: templates/social-media-footer.php:65
+msgid "Visit BitBucket"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:91
+#: templates/social-media-footer.php:72
+msgid "Visit YouTube"
+msgstr ""
+
+#: classes/Class-custom-theme-widgets.php:134
+msgid "Title"
+msgstr ""
+
+#: classes/Class-theme-options.php:54 classes/Class-theme-options.php:55
+#: classes/Class-theme-options.php:341 hooks/wp-before-admin-bar-render.php:19
+msgid "Theme-Settings"
+msgstr ""
+
+#: classes/Class-theme-options.php:352
+msgid "Frontend settings"
+msgstr ""
+
+#: classes/Class-theme-options.php:353
+msgid "Advanced settings"
+msgstr ""
+
+#: classes/Class-theme-options.php:354
+msgid "Backend settings"
+msgstr ""
+
+#: classes/Class-theme-options.php:355
+msgid "Social Media settings"
+msgstr ""
+
+#: classes/Class-theme-options.php:368
+msgid "Color Customizer"
+msgstr ""
+
+#: classes/Class-theme-options.php:375
+msgid "Enable the WordPress Customizer in the frontend"
+msgstr ""
+
+#: classes/Class-theme-options.php:382 classes/Class-theme-options.php:427
+#: classes/Class-theme-options.php:487 classes/Class-theme-options.php:560
+#: classes/Class-theme-options.php:639 classes/Class-theme-options.php:958
+#: classes/Class-theme-options.php:982 classes/Class-theme-options.php:1041
+#: classes/Class-theme-options.php:1161 classes/Class-theme-options.php:1240
+#: classes/Class-theme-options.php:1286 classes/Class-theme-options.php:1327
+#: classes/Class-theme-options.php:1373 classes/Class-theme-options.php:1414
+msgid "off"
+msgstr ""
+
+#: classes/Class-theme-options.php:391 classes/Class-theme-options.php:436
+#: classes/Class-theme-options.php:496 classes/Class-theme-options.php:569
+#: classes/Class-theme-options.php:648 classes/Class-theme-options.php:967
+#: classes/Class-theme-options.php:991 classes/Class-theme-options.php:1050
+#: classes/Class-theme-options.php:1170 classes/Class-theme-options.php:1249
+#: classes/Class-theme-options.php:1295 classes/Class-theme-options.php:1336
+#: classes/Class-theme-options.php:1382 classes/Class-theme-options.php:1423
+#: hooks/comment-layout.php:62
+msgid "on"
+msgstr ""
+
+#: classes/Class-theme-options.php:413 classes/Class-theme-options.php:420
+msgid "Google Fonts"
+msgstr ""
+
+#: classes/Class-theme-options.php:420
+msgid "Activate Google-Fonts"
+msgstr ""
+
+#: classes/Class-theme-options.php:420
+msgid "Start picking your collection on"
+msgstr ""
+
+#: classes/Class-theme-options.php:451
+msgid "Paste your Google Fonts url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:473
+msgid "Frontpage"
+msgstr ""
+
+#: classes/Class-theme-options.php:480
+msgid "Show a title on the front-page"
+msgstr ""
+
+#: classes/Class-theme-options.php:504
+msgid "How many sidebars do you want on the front-page"
+msgstr ""
+
+#: classes/Class-theme-options.php:513
+msgid "No sidebar, full width"
+msgstr ""
+
+#: classes/Class-theme-options.php:514
+msgid "No sidebar, content only"
+msgstr ""
+
+#: classes/Class-theme-options.php:515
+msgid "1 sidebar, right side"
+msgstr ""
+
+#: classes/Class-theme-options.php:516
+msgid "1 sidebar, left side"
+msgstr ""
+
+#: classes/Class-theme-options.php:517
+msgid "2 sidebars, left and right"
+msgstr ""
+
+#: classes/Class-theme-options.php:546
+msgid "Top bar"
+msgstr ""
+
+#: classes/Class-theme-options.php:553
+msgid "Show a top bar with navigation above the main navbar"
+msgstr ""
+
+#: classes/Class-theme-options.php:590
+msgid "Main menu indentation"
+msgstr ""
+
+#: classes/Class-theme-options.php:596
+msgid "Which nth-child would you like to align right"
+msgstr ""
+
+#: classes/Class-theme-options.php:625
+msgid "Bottom bar"
+msgstr ""
+
+#: classes/Class-theme-options.php:632
+msgid "Show a bottom bar with navigation below the main navbar"
+msgstr ""
+
+#: classes/Class-theme-options.php:671
+msgid "Search button position"
+msgstr ""
+
+#: classes/Class-theme-options.php:678
+msgid "Where do you want to show the search button on desktop"
+msgstr ""
+
+#: classes/Class-theme-options.php:687
+msgid "Please select the menu to attach the search button"
+msgstr ""
+
+#: classes/Class-theme-options.php:716
+msgid "Container width"
+msgstr ""
+
+#: classes/Class-theme-options.php:726
+msgid "Upper navbar"
+msgstr ""
+
+#: classes/Class-theme-options.php:737 classes/Class-theme-options.php:768
+#: classes/Class-theme-options.php:799 classes/Class-theme-options.php:830
+#: classes/Class-theme-options.php:861 classes/Class-theme-options.php:892
+msgid "narrow"
+msgstr ""
+
+#: classes/Class-theme-options.php:746 classes/Class-theme-options.php:777
+#: classes/Class-theme-options.php:808 classes/Class-theme-options.php:839
+#: classes/Class-theme-options.php:870 classes/Class-theme-options.php:901
+msgid "wide"
+msgstr ""
+
+#: classes/Class-theme-options.php:757
+msgid "Main navbar"
+msgstr ""
+
+#: classes/Class-theme-options.php:788
+msgid "Lower navbar"
+msgstr ""
+
+#: classes/Class-theme-options.php:819
+msgid "Slideshow"
+msgstr ""
+
+#: classes/Class-theme-options.php:850
+msgid "Body"
+msgstr ""
+
+#: classes/Class-theme-options.php:881
+msgid "Select the width of the widget section"
+msgstr ""
+
+#: classes/Class-theme-options.php:928
+msgid "Canvas sidebar"
+msgstr ""
+
+#: classes/Class-theme-options.php:935
+msgid "Activate the canvas sidebar"
+msgstr ""
+
+#: classes/Class-theme-options.php:945
+msgid "Please select the menu to replace"
+msgstr ""
+
+#: classes/Class-theme-options.php:976
+msgid "Replace the menu completely"
+msgstr ""
+
+#: classes/Class-theme-options.php:998 classes/Class-theme-options.php:1003
+msgid "Button text"
+msgstr ""
+
+#: classes/Class-theme-options.php:1027
+msgid "Post suggestions"
+msgstr ""
+
+#: classes/Class-theme-options.php:1034
+msgid "Suggest related posts to the user"
+msgstr ""
+
+#: classes/Class-theme-options.php:1072
+msgid "Footer widgets"
+msgstr ""
+
+#: classes/Class-theme-options.php:1079
+msgid "How many footer widgets would you like to show"
+msgstr ""
+
+#: classes/Class-theme-options.php:1088
+msgid "No widgets"
+msgstr ""
+
+#: classes/Class-theme-options.php:1089
+msgid "1 widget"
+msgstr ""
+
+#: classes/Class-theme-options.php:1090
+msgid "2 widgets"
+msgstr ""
+
+#: classes/Class-theme-options.php:1091
+msgid "3 widgets"
+msgstr ""
+
+#: classes/Class-theme-options.php:1092
+msgid "4 widgets"
+msgstr ""
+
+#: classes/Class-theme-options.php:1117
+msgid "Alert settings"
+msgstr ""
+
+#: classes/Class-theme-options.php:1131
+msgid "Show an alert message to all visitors in the head section."
+msgstr ""
+
+#: classes/Class-theme-options.php:1143
+msgid "Grey (Default)"
+msgstr ""
+
+#: classes/Class-theme-options.php:1144
+msgid "Green (Success)"
+msgstr ""
+
+#: classes/Class-theme-options.php:1145
+msgid "Yellow (Warning)"
+msgstr ""
+
+#: classes/Class-theme-options.php:1146
+msgid "Red (Danger)"
+msgstr ""
+
+#: classes/Class-theme-options.php:1147
+msgid "Blue (Info)"
+msgstr ""
+
+#: classes/Class-theme-options.php:1184
+msgid "Enter your alert text here and pick a color"
+msgstr ""
+
+#: classes/Class-theme-options.php:1194
+msgid "Please select an expiry date of the alert message"
+msgstr ""
+
+#: classes/Class-theme-options.php:1200
+msgid "Expires on"
+msgstr ""
+
+#: classes/Class-theme-options.php:1206
+msgid "xx.xx.xxxx"
+msgstr ""
+
+#: classes/Class-theme-options.php:1226
+msgid "Debug mode"
+msgstr ""
+
+#: classes/Class-theme-options.php:1233
+msgid "Enable Bootstrap 4 media query debug mode"
+msgstr ""
+
+#: classes/Class-theme-options.php:1272
+msgid "Script Loading"
+msgstr ""
+
+#: classes/Class-theme-options.php:1279
+msgid "Load the Bootstrap scripts in the head"
+msgstr ""
+
+#: classes/Class-theme-options.php:1279
+msgid "Default is footer"
+msgstr ""
+
+#: classes/Class-theme-options.php:1313
+msgid "Backend Ad-Blocker"
+msgstr ""
+
+#: classes/Class-theme-options.php:1320
+msgid "Activate the back-end ad-blocker"
+msgstr ""
+
+#: classes/Class-theme-options.php:1359
+msgid "Gutenberg-Tips"
+msgstr ""
+
+#: classes/Class-theme-options.php:1366
+msgid "Disable annoying Gutenberg-Tips"
+msgstr ""
+
+#: classes/Class-theme-options.php:1400
+msgid "Social Media"
+msgstr ""
+
+#: classes/Class-theme-options.php:1407
+msgid "Activate the social media functions"
+msgstr ""
+
+#: classes/Class-theme-options.php:1453
+msgid "Shop-URL"
+msgstr ""
+
+#: classes/Class-theme-options.php:1460
+msgid "Paste your shop url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:1470
+msgid "Facebook Page"
+msgstr ""
+
+#: classes/Class-theme-options.php:1477
+msgid "Paste your Facebook url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:1487
+msgid "Twitter Profile"
+msgstr ""
+
+#: classes/Class-theme-options.php:1494
+msgid "Paste your Twitter url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:1504
+msgid "Instagram Profile"
+msgstr ""
+
+#: classes/Class-theme-options.php:1511
+msgid "Paste your Instagram url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:1521
+msgid "linkedin Profile"
+msgstr ""
+
+#: classes/Class-theme-options.php:1528
+msgid "Paste your linkedin url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:1538
+msgid "github Profile"
+msgstr ""
+
+#: classes/Class-theme-options.php:1545
+msgid "Paste your github url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:1555
+msgid "bitbucket Profile"
+msgstr ""
+
+#: classes/Class-theme-options.php:1562
+msgid "Paste your bitbucket url here"
+msgstr ""
+
+#: classes/Class-theme-options.php:1572
+msgid "YouTube Channel"
+msgstr ""
+
+#: classes/Class-theme-options.php:1579
+msgid "Paste your YouTube-channel url here"
+msgstr ""
+
+#: comments.php:4
+msgid "Comments to"
+msgstr ""
+
+#: comments.php:33
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:33
+msgid "Log out"
+msgstr ""
+
+#: front-page.php:52
+msgid "News"
+msgstr ""
+
+#: hooks/after-setup-theme.php:12
+msgid "Default header image"
+msgstr ""
+
+#: hooks/after-setup-theme.php:20
+msgid "top left menu"
+msgstr ""
+
+#: hooks/after-setup-theme.php:21
+msgid "top right menu"
+msgstr ""
+
+#: hooks/after-setup-theme.php:28
+msgid "bottom left menu"
+msgstr ""
+
+#: hooks/after-setup-theme.php:29
+msgid "bottom right menu"
+msgstr ""
+
+#: hooks/after-setup-theme.php:34
+msgid "main menu"
+msgstr ""
+
+#: hooks/after-setup-theme.php:35
+msgid "error 404 menu"
+msgstr ""
+
+#: hooks/after-setup-theme.php:36
+msgid "credits menu"
+msgstr ""
+
+#: hooks/avatar-defaults.php:5
+msgid "Bootstrap five default avatar"
+msgstr ""
+
+#: hooks/comment-layout.php:13
+msgid "reply"
+msgstr ""
+
+#: hooks/comment-layout.php:46
+msgid "says"
+msgstr ""
+
+#: hooks/comment-layout.php:50
+msgid "at"
+msgstr ""
+
+#: hooks/comment-layout.php:58
+msgid "o'clock"
+msgstr ""
+
+#: hooks/comment-logic.php:8
+msgid "no comments yet"
+msgstr ""
+
+#: hooks/comment-logic.php:10
+msgid "Comments"
+msgstr ""
+
+#: hooks/comment-logic.php:12
+msgid "1 Comment"
+msgstr ""
+
+#: hooks/comment-logic.php:15
+msgid "Comments closed"
+msgstr ""
+
+#: hooks/customize-register-custom-logo.php:15
+msgid "Image upload"
+msgstr ""
+
+#: hooks/customize-register-custom-logo.php:16
+msgid "Upload images or a logo of your company or your product."
+msgstr ""
+
+#: hooks/customize-register-custom-logo.php:23
+msgid "Your current logo"
+msgstr ""
+
+#: hooks/customize-register-custom-logo.php:28
+msgid "Author background image"
+msgstr ""
+
+#: hooks/customize-register.php:214
+msgid "Header styling"
+msgstr ""
+
+#: hooks/customize-register.php:215
+msgid "Adjust the colors of the header."
+msgstr ""
+
+#: hooks/customize-register.php:220
+msgid "Canvas styling"
+msgstr ""
+
+#: hooks/customize-register.php:221
+msgid "Adjust the colors of the canvas sidebar."
+msgstr ""
+
+#: hooks/customize-register.php:227
+msgid "Body styling"
+msgstr ""
+
+#: hooks/customize-register.php:228
+msgid "Adjust the colors in the content section."
+msgstr ""
+
+#: hooks/customize-register.php:234
+msgid "Footer styling"
+msgstr ""
+
+#: hooks/customize-register.php:235
+msgid "Adjust the colors of the footer."
+msgstr ""
+
+#: hooks/customize-register.php:241
+msgid "Social media styling"
+msgstr ""
+
+#: hooks/customize-register.php:242
+msgid "Adjust the colors of the social media secion."
+msgstr ""
+
+#: hooks/customize-register.php:248
+msgid "Back to top button styling"
+msgstr ""
+
+#: hooks/customize-register.php:249
+msgid "Adjust the colors of the Back to top button."
+msgstr ""
+
+#: hooks/customize-register.php:255
+msgid "Credits styling"
+msgstr ""
+
+#: hooks/customize-register.php:256
+msgid "Adjust the colors of the credits."
+msgstr ""
+
+#: hooks/customize-register.php:265
+msgid "Topbar background color"
+msgstr ""
+
+#: hooks/customize-register.php:271
+msgid "Topbar link color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:277
+msgid "Topbar link color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:284
+msgid "Navbar background color"
+msgstr ""
+
+#: hooks/customize-register.php:290
+msgid "Navbar link color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:296
+msgid "Navbar link color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:303
+msgid "Bottombar background color"
+msgstr ""
+
+#: hooks/customize-register.php:309
+msgid "Bottombar link color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:315
+msgid "Bottombar link color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:322
+msgid "Canvas background color"
+msgstr ""
+
+#: hooks/customize-register.php:329
+msgid "Body text color"
+msgstr ""
+
+#: hooks/customize-register.php:336
+msgid "Primary brand color"
+msgstr ""
+
+#: hooks/customize-register.php:343
+msgid "Primary hover color"
+msgstr ""
+
+#: hooks/customize-register.php:350
+msgid "Breadcrumbs link color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:357
+msgid "Breadcrumbs link color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:364
+msgid "Posttitle link color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:371
+msgid "Posttitle link color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:378
+msgid "Categories link color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:385
+msgid "Categories link color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:392
+msgid "Tag link background color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:399
+msgid "Tag link background color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:406
+msgid "Permalink background color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:413
+msgid "Permalink background color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:422
+msgid "Footer background color"
+msgstr ""
+
+#: hooks/customize-register.php:429
+msgid "Back to top button background color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:434
+msgid "Back to top button background color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:441
+msgid "Social Media section Background color"
+msgstr ""
+
+#: hooks/customize-register.php:446
+msgid "Icon font color"
+msgstr ""
+
+#: hooks/customize-register.php:451
+msgid "Icon hover color"
+msgstr ""
+
+#: hooks/customize-register.php:458
+msgid "Credits links color (default)"
+msgstr ""
+
+#: hooks/customize-register.php:464
+msgid "Credits links color (hover)"
+msgstr ""
+
+#: hooks/customize-register.php:470
+msgid "Credits text color"
+msgstr ""
+
+#: hooks/customize-register.php:476
+msgid "Credits background color"
+msgstr ""
+
+#: hooks/theme-functions.php:12
+msgid "Emplyoees"
+msgstr ""
+
+#: hooks/theme-functions.php:14
+msgid "Locations"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: hooks/widgets-init.php:10
+msgid "Sidebar Left"
+msgstr ""
+
+#: hooks/widgets-init.php:12
+msgid "Left standard sidebar"
+msgstr ""
+
+#: hooks/widgets-init.php:19
+msgid "Sidebar Right"
+msgstr ""
+
+#: hooks/widgets-init.php:21
+msgid "Right standard sidebar"
+msgstr ""
+
+#: hooks/widgets-init.php:30
+msgid "Canvas Sidebar widget"
+msgstr ""
+
+#: hooks/widgets-init.php:32
+msgid "Canvas widget when activated in the theme options"
+msgstr ""
+
+#: hooks/widgets-init.php:47
+msgid "Single Footer Widget"
+msgstr ""
+
+#: hooks/widgets-init.php:48
+msgid "Footer widget in the lower section of the theme."
+msgstr ""
+
+#: hooks/widgets-init.php:57 hooks/widgets-init.php:77
+#: hooks/widgets-init.php:105
+msgid "Left Footer Widget"
+msgstr ""
+
+#: hooks/widgets-init.php:58
+msgid "Left footer widget in the lower section of the theme."
+msgstr ""
+
+#: hooks/widgets-init.php:65 hooks/widgets-init.php:93
+#: hooks/widgets-init.php:129
+msgid "Right Footer Widget"
+msgstr ""
+
+#: hooks/widgets-init.php:66
+msgid "Right footer widget in the lower section of the theme."
+msgstr ""
+
+#: hooks/widgets-init.php:78 hooks/widgets-init.php:106
+msgid "Left footer widget in the middle of the lower footer section."
+msgstr ""
+
+#: hooks/widgets-init.php:85
+msgid "Center Footer Widget"
+msgstr ""
+
+#: hooks/widgets-init.php:86
+msgid "Centered footer widget in the middle of the lower footer section."
+msgstr ""
+
+#: hooks/widgets-init.php:94 hooks/widgets-init.php:130
+msgid "Right footer widget in the middle of the lower footer section."
+msgstr ""
+
+#: hooks/widgets-init.php:113
+msgid "Center Left Footer Widget"
+msgstr ""
+
+#: hooks/widgets-init.php:114
+msgid "Left centered footer widget in the middle of the lower footer section."
+msgstr ""
+
+#: hooks/widgets-init.php:121
+msgid "Center Right Footer Widget"
+msgstr ""
+
+#: hooks/widgets-init.php:122
+msgid "Right centered footer widget in the middle of the lower footer section."
+msgstr ""
+
+#: hooks/widgets-init.php:145
+msgid "Sidebar WooCommerce"
+msgstr ""
+
+#: hooks/widgets-init.php:147
+msgid "WooCommerce sidebar"
+msgstr ""
+
+#: hooks/wp-dashboard-setup.php:6
+msgid "Current theme: Bootstrap Five"
+msgstr ""
+
+#: hooks/wp-dashboard-setup.php:23
+msgid "Quick controls"
+msgstr ""
+
+#: hooks/wp-dashboard-setup.php:25
+msgid "Theme-settings"
+msgstr ""
+
+#: hooks/wp-dashboard-setup.php:26
+msgid "Edit menus"
+msgstr ""
+
+#: hooks/wp-dashboard-setup.php:27
+msgid "Edit widgets"
+msgstr ""
+
+#: hooks/wp-nav-menu-items.php:20
+msgid "Menu"
+msgstr ""
+
+#: hooks/wp-nav-menu-items.php:36
+msgid "Search"
+msgstr ""
+
+#: hooks/wp-title.php:21
+msgid "Page %"
+msgstr ""
+
+#: tag.php:10
+msgid "All posts tagged with"
+msgstr ""
+
+#: templates/alert.php:26
+msgid "Close"
+msgstr ""
+
+#: templates/breadcrumbs.php:9
+msgid "You are here"
+msgstr ""
+
+#: templates/canvas-sidebar-top.php:9
+msgid "close"
+msgstr ""
+
+#: templates/credits.php:6
+msgid "Back to top"
+msgstr ""
+
+#: templates/credits.php:33
+msgid "All rights reserved"
+msgstr ""
+
+#: templates/custom-logo.php:2
+msgid "Start"
+msgstr ""
+
+#: templates/loops/loop-archive.php:26 templates/loops/loop-single.php:8
+msgid "Category"
+msgstr ""
+
+#: templates/loops/loop-archive.php:45 templates/loops/loop-single.php:24
+msgid "posted by"
+msgstr ""
+
+#: templates/loops/loop-archive.php:60 templates/loops/loop-archive.php:62
+#: templates/post-suggestions.php:47
+msgid "Continue to article"
+msgstr ""
+
+#: templates/post-suggestions.php:28
+msgid "Maybe you are interested in the following topics"
+msgstr ""
+
+#: woocommerce/archive-product.php:8
+msgid "Shop"
+msgstr ""
+
+#: woocommerce/archive-product.php:23
+msgid ""
+"The are currently no products in stock. Please come back later. Thank you."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Bootstrap (V5)"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.gundlach-automotive.de/themes/bootstrap"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WordPress Bootstrap 5 Theme for WP 5.5+."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Gundlach-IT"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.gundlach-automotive.de/themes"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Sidebars"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Two Sidebars"
+msgstr ""

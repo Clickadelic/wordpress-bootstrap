@@ -1,0 +1,1747 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootstrap (V5)\n"
+"POT-Creation-Date: 2022-06-23 21:33+0200\n"
+"PO-Revision-Date: 2022-06-23 21:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: 404.php:9
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: 404.php:18
+msgid "Uups, error 404! The page you are looking for could not be found."
+msgstr "Uups, Fehler 404! Die gesuchte Seite konnte nicht gefunden werden."
+
+#: 404.php:24
+msgid "Maybe a search can help"
+msgstr "Vielleicht hilft eine Suche"
+
+#: 404.php:30
+msgid "or these links"
+msgstr "oder diese Links"
+
+#: archive.php:8
+msgid "Archive"
+msgstr "Archiv"
+
+#: author.php:8
+msgid "About the author"
+msgstr "Über den Author"
+
+#: author.php:16
+msgid "Author Card Background"
+msgstr "Author-Karte Hintergrundbild"
+
+#: author.php:37
+msgid "Back"
+msgstr "Zurück"
+
+#: author.php:42
+msgid "Posts by"
+msgstr "Posts von"
+
+#: author.php:62 category.php:15 front-page.php:20 tag.php:16
+msgid "back"
+msgstr "zurück"
+
+#: author.php:63 category.php:16 front-page.php:21 tag.php:17
+msgid "forward"
+msgstr "weiter"
+
+#: author.php:68
+msgid "Sorry, this author hasn't posted any content yet"
+msgstr "Sorry, dieser Autor hat bisher keinen Inhalt publiziert"
+
+#: category.php:9
+msgid "All posts in"
+msgstr "Alle Beiträge in"
+
+#: classes/Class-bootstrap-navwalker.php:376
+msgid "Add menu"
+msgstr "Menü hinzufügen"
+
+#: classes/Class-customizer.php:34
+msgid "Theme options"
+msgstr "Theme-Einstellungen"
+
+#: classes/Class-customizer.php:35
+msgid "Style settings for the theme."
+msgstr "Style-Einstellungen für das Theme."
+
+#: classes/Class-customizer.php:43
+msgid "Search function"
+msgstr "Suchfunktion"
+
+#: classes/Class-customizer.php:48 classes/Class-customizer.php:139
+msgid "Canvas"
+msgstr "Canvas"
+
+#: classes/Class-customizer.php:55
+msgid "Topbar"
+msgstr "Obere Navigation"
+
+#: classes/Class-customizer.php:56
+msgid "Style the topbar according to your needs."
+msgstr "Stylen Sie die obere Menüleiste nach Ihren Bedürfnissen."
+
+#: classes/Class-customizer.php:65
+msgid "Navbar"
+msgstr "Hauptnavigation"
+
+#: classes/Class-customizer.php:66
+msgid "Navbar styling"
+msgstr "Hauptmenü-Styling"
+
+#: classes/Class-customizer.php:74
+msgid "Bottombar"
+msgstr "Untere Navigation"
+
+#: classes/Class-customizer.php:75
+msgid "Bottom bar styling"
+msgstr "Untere Menüleiste Styling"
+
+#: classes/Class-customizer.php:83 classes/Class-customizer.php:613
+msgid "Alert"
+msgstr "Alert-Nachricht"
+
+#: classes/Class-customizer.php:84
+msgid "Show a nice alert message"
+msgstr "Anzeigen einer Nachricht"
+
+#: classes/Class-customizer.php:92
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: classes/Class-customizer.php:93
+msgid "Slideshow styling"
+msgstr "Slideshow-Styling"
+
+#: classes/Class-customizer.php:101
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: classes/Class-customizer.php:102
+msgid "Breadcrumbs styling"
+msgstr "Breadcrumbs-Styling"
+
+#: classes/Class-customizer.php:110
+msgid "Body"
+msgstr "Body"
+
+#: classes/Class-customizer.php:111
+msgid "Body styling"
+msgstr "Body-Styling"
+
+#: classes/Class-customizer.php:120 classes/Class-customizer.php:1196
+msgid "Footer widgets"
+msgstr "Footer-Widgets"
+
+#: classes/Class-customizer.php:121
+msgid "Footer widget styling"
+msgstr "Footer Widgets styling"
+
+#: classes/Class-customizer.php:130
+msgid "Credits"
+msgstr "Credits"
+
+#: classes/Class-customizer.php:131
+msgid "Credits styling"
+msgstr "Credits-Styling"
+
+#: classes/Class-customizer.php:140
+msgid "A sidepanel, which slides out, either left or right."
+msgstr "Zeige ein seitliches Panel, genannt Canvas."
+
+#: classes/Class-customizer.php:146
+msgid "Website information & Logo"
+msgstr "Website-Informationen & Logo"
+
+#: classes/Class-customizer.php:167
+msgid "Show a top navigation bar"
+msgstr "Zeige eine Navigationsleiste über dem Hauptmenü"
+
+#: classes/Class-customizer.php:168
+msgid "Show a top navigation bar above the main navbar."
+msgstr "Zeige eine Navigation über der Haupt-Navigationsleiste."
+
+#: classes/Class-customizer.php:182
+msgid "Topbar width"
+msgstr "Container-Breite"
+
+#: classes/Class-customizer.php:183
+msgid "Select the container width of the topbar."
+msgstr "Wähle die Container-Breite der oberen Navigationsleiste."
+
+#: classes/Class-customizer.php:186 classes/Class-customizer.php:307
+#: classes/Class-customizer.php:498 classes/Class-customizer.php:631
+#: classes/Class-customizer.php:754 classes/Class-customizer.php:882
+msgid "Container"
+msgstr "Container"
+
+#: classes/Class-customizer.php:187 classes/Class-customizer.php:308
+#: classes/Class-customizer.php:499 classes/Class-customizer.php:632
+#: classes/Class-customizer.php:755 classes/Class-customizer.php:883
+msgid "Container-Fluid"
+msgstr "Container-Fluid"
+
+#: classes/Class-customizer.php:202
+msgid "Topbar background color"
+msgstr "Topbar Hintergrundfarbe"
+
+#: classes/Class-customizer.php:203
+msgid "Select the background color of the topbar."
+msgstr "Wähle die Hintergrundfarbe der unteren Navigationsleiste."
+
+#: classes/Class-customizer.php:226
+msgid "Topbar font-weight"
+msgstr "Topbar Font-Weight"
+
+#: classes/Class-customizer.php:227
+msgid "Select the font-weight of the topbar"
+msgstr "Wähle den Schriftstil der Topbar (Normal oder Fett)"
+
+#: classes/Class-customizer.php:232 classes/Class-customizer.php:367
+#: classes/Class-customizer.php:544
+msgid "normal"
+msgstr "Normal"
+
+#: classes/Class-customizer.php:236 classes/Class-customizer.php:371
+#: classes/Class-customizer.php:548
+msgid "bold"
+msgstr "Fett"
+
+#: classes/Class-customizer.php:252
+msgid "Topbar link color (default)"
+msgstr "Topbar Linkfarbe (Standard)"
+
+#: classes/Class-customizer.php:253 classes/Class-customizer.php:388
+#: classes/Class-customizer.php:565
+msgid "Adjust the color of the links."
+msgstr "Passe die Farbe der Links an."
+
+#: classes/Class-customizer.php:276
+msgid "Topbar link color (hover)"
+msgstr "Topbar Linkfarbe (Hover)"
+
+#: classes/Class-customizer.php:277 classes/Class-customizer.php:412
+#: classes/Class-customizer.php:589
+msgid "Adjust the color of the links on hover."
+msgstr "Passe die Farbe der Links an, wenn die Maus darüber ist."
+
+#: classes/Class-customizer.php:303
+msgid "Navbar width"
+msgstr "Navbar-Breite"
+
+#: classes/Class-customizer.php:304
+msgid "Select the container width of the main navbar."
+msgstr "Wähle die Containerbreite der Haupt-Navigationsleiste aus."
+
+#: classes/Class-customizer.php:323
+msgid "Center main navigation bar"
+msgstr "Zentriere das Hauptmenü"
+
+#: classes/Class-customizer.php:324
+msgid "Center the items in the main navbar."
+msgstr "Zentriere die Einträge in der Haupt-Navigationsleiste."
+
+#: classes/Class-customizer.php:337
+msgid "Navbar background color"
+msgstr "Navbar-Hintergrundfarbe"
+
+#: classes/Class-customizer.php:338
+msgid "Main navbar background color."
+msgstr "Haupt-Navbar Hintergrundfarbe."
+
+#: classes/Class-customizer.php:361
+msgid "Navbar font-weight"
+msgstr "Hauptmenü Font-Weight"
+
+#: classes/Class-customizer.php:362
+msgid "Select the font-weight of the navbar"
+msgstr "Wähle den Schriftstil der Hauptnavigation (Normal oder Fett)"
+
+#: classes/Class-customizer.php:387
+msgid "Navbar link color (default)"
+msgstr "Navbar Linkfarbe (Standard)"
+
+#: classes/Class-customizer.php:411
+msgid "Navbar link color (hover)"
+msgstr "Navbar Linkfarbe (Hover)"
+
+#: classes/Class-customizer.php:435
+msgid "Navbar padding  top (px)"
+msgstr "Navbar-Abstand nach oben (px)"
+
+#: classes/Class-customizer.php:455
+msgid "Navbar padding bottom (px)"
+msgstr "Navbar-Abstand nach unten (px)"
+
+#: classes/Class-customizer.php:479
+msgid "Show a bottom navigation bar"
+msgstr "Untere Navigationsleiste anzeigen"
+
+#: classes/Class-customizer.php:480
+msgid "Show a bottom navigation bar below the main navbar."
+msgstr "Zeige eine Navigationsleiste unter dem Hauptmenü."
+
+#: classes/Class-customizer.php:494
+msgid "Bottombar width"
+msgstr "Breite untere Navbar"
+
+#: classes/Class-customizer.php:495
+msgid "Select the container width of the bottombar."
+msgstr "Wähle die Container-Breite der unteren Navigationsleiste."
+
+#: classes/Class-customizer.php:514
+msgid "Bottombar background color"
+msgstr "Untere Navbar Hintergrundfarbe"
+
+#: classes/Class-customizer.php:515
+msgid "Select the background color of the lower navbar."
+msgstr "Wähle die Hintergrundfarbe der unteren Navigationsleiste."
+
+#: classes/Class-customizer.php:538
+msgid "Bottombar font-weight"
+msgstr "Untere Navigation Font-Weight"
+
+#: classes/Class-customizer.php:539
+msgid "Select the font-weight of the bottombar"
+msgstr "Wähle den Schriftstil der Hauptnavigationsleiste"
+
+#: classes/Class-customizer.php:564
+msgid "Bottombar link color (default)"
+msgstr "Untere Navbar Standard Linkfarbe"
+
+#: classes/Class-customizer.php:588
+msgid "Bottombar link color (hover)"
+msgstr "Untere Navbar Hover Linkfarbe"
+
+#: classes/Class-customizer.php:614
+msgid "Show an alert window."
+msgstr "Anzeigen einer Nachricht."
+
+#: classes/Class-customizer.php:628
+msgid "Alert width"
+msgstr "Alert Container-Breite"
+
+#: classes/Class-customizer.php:647
+msgid "Alert color"
+msgstr "Alert-Farbe"
+
+#: classes/Class-customizer.php:648
+msgid "Pick the color of the alert window."
+msgstr "Wähle die Farbe des Alert-Fensters."
+
+#: classes/Class-customizer.php:650
+msgid "Alert Primary"
+msgstr "Alert-Primary"
+
+#: classes/Class-customizer.php:651
+msgid "Alert Secondary"
+msgstr "Alert-Secondary"
+
+#: classes/Class-customizer.php:652
+msgid "Alert Success"
+msgstr "Alert-Success"
+
+#: classes/Class-customizer.php:653
+msgid "Alert Danger"
+msgstr "Alert-Danger"
+
+#: classes/Class-customizer.php:654
+msgid "Alert Warning"
+msgstr "Alert-Warning"
+
+#: classes/Class-customizer.php:655
+msgid "Alert Info"
+msgstr "Alert-Info"
+
+#: classes/Class-customizer.php:656
+msgid "Alert Light"
+msgstr "Alert-Light"
+
+#: classes/Class-customizer.php:657
+msgid "Alert Dark"
+msgstr "Alert-Dark"
+
+#: classes/Class-customizer.php:672
+msgid "Alert text"
+msgstr "Alert-Text"
+
+#: classes/Class-customizer.php:673
+msgid "Type the text, you want to show."
+msgstr "Tippe hier die Nachricht, welche Du zeigen möchtest."
+
+#: classes/Class-customizer.php:679
+msgid "Hello world!"
+msgstr "Hallo Welt!"
+
+#: classes/Class-customizer.php:690
+msgid "Alert Link URL"
+msgstr "Alert-Link URL"
+
+#: classes/Class-customizer.php:691
+msgid "Enter your link url."
+msgstr "Füge die Link-URL hier ein."
+
+#: classes/Class-customizer.php:693
+msgid "http://www.example.com"
+msgstr "http://www.example.com"
+
+#: classes/Class-customizer.php:708
+msgid "Alert link text"
+msgstr "Alert Linktext"
+
+#: classes/Class-customizer.php:709
+msgid "Type the text, you want to show for the link"
+msgstr "Gib' hier den Text, welcher für den Link sichtbar sein soll"
+
+#: classes/Class-customizer.php:715
+msgid "Example"
+msgstr "Beispiel"
+
+#: classes/Class-customizer.php:730
+msgid "Alert link target"
+msgstr "Alert Linktarget"
+
+#: classes/Class-customizer.php:731
+msgid "Open the link internally or in an external window."
+msgstr "Öffne den Link in einem neuen Tab."
+
+#: classes/Class-customizer.php:734
+msgid "_self"
+msgstr "_self"
+
+#: classes/Class-customizer.php:735
+msgid "_blank"
+msgstr "_blank"
+
+#: classes/Class-customizer.php:750
+msgid "Slideshow width"
+msgstr "Slideshow-Breite"
+
+#: classes/Class-customizer.php:751
+msgid "Select the container width of the slideshow."
+msgstr "Wähle die Breite des Containers der Slideshow."
+
+#: classes/Class-customizer.php:770
+msgid "Slideshow shortcode (Frontpage)"
+msgstr "Slideshow-Shortcode (Startseite)"
+
+#: classes/Class-customizer.php:771
+msgid "Enter the shortcode of the frontpage slideshow."
+msgstr "Gib' den Shortcode der Startseite auf der Slideshow ein."
+
+#: classes/Class-customizer.php:777
+msgid "[smartslider3 slider=\"1\"]"
+msgstr "[smartslider3 slider=\"1\"]"
+
+#: classes/Class-customizer.php:792
+msgid "Slideshow shortcode (Subpage)"
+msgstr "Slideshow-Shortcode (Unterseiten)"
+
+#: classes/Class-customizer.php:793
+msgid "Enter the shortcode of the subpage slideshow."
+msgstr "Gib' Shortcode der Slideshow auf den Unterseiten an."
+
+#: classes/Class-customizer.php:799
+msgid "[smartslider3 slider=\"2\"]"
+msgstr "[smartslider3 slider=\"2\"]"
+
+#: classes/Class-customizer.php:815
+msgid "Show breadcrumbs"
+msgstr "Zeige Breadcrumbs"
+
+#: classes/Class-customizer.php:816
+msgid "Show breadcrumb links below the slider."
+msgstr "Zeige Breadcrumbs unter dem Slider."
+
+#: classes/Class-customizer.php:830
+msgid "Breadcrumbs link color"
+msgstr "Breadcrumbs Linkfarbe"
+
+#: classes/Class-customizer.php:831
+msgid "The link color of the breadcrumbs."
+msgstr "Die Linkfarbe der Breadcrumbs."
+
+#: classes/Class-customizer.php:854
+msgid "Breadcrumbs link hover color"
+msgstr "Breadcrumbs Linkfarbe (hover)"
+
+#: classes/Class-customizer.php:855
+msgid "The hover color of the breadcrumbs."
+msgstr "Die Breadcrumbs Hover-Farbe."
+
+#: classes/Class-customizer.php:878
+msgid "Body width"
+msgstr "Wähle die Breite des Bodys"
+
+#: classes/Class-customizer.php:879
+msgid "Select the container width of the body."
+msgstr "Wähle die Breite des Containers des Body-Bereichs."
+
+#: classes/Class-customizer.php:897
+msgid "Body background color"
+msgstr "Body Hintergrundfarbe"
+
+#: classes/Class-customizer.php:898
+msgid "The background color of the body."
+msgstr "Wähle die Hintergrundfarbe des Body's aus."
+
+#: classes/Class-customizer.php:924
+msgid "Body text color"
+msgstr "Body Textfarbe"
+
+#: classes/Class-customizer.php:925
+msgid "The color of the body text."
+msgstr "Passe die Farben des Textes im Body an."
+
+#: classes/Class-customizer.php:951
+msgid "Primary brand color"
+msgstr "Primäre Markenfarbe"
+
+#: classes/Class-customizer.php:952
+msgid "The main color of the theme."
+msgstr "Die Hauptfarbe des Themes."
+
+#: classes/Class-customizer.php:975
+msgid "Primary hover color"
+msgstr "Primäre Hover-Farbe"
+
+#: classes/Class-customizer.php:976
+msgid "The hover color of the theme."
+msgstr "Hover-Farbe des Themes."
+
+#: classes/Class-customizer.php:999
+msgid "Posttitle color (default)"
+msgstr "Posttitelfarbe (Standard)"
+
+#: classes/Class-customizer.php:1000
+msgid "The color of the postttitle on the blog page."
+msgstr "Die Farbe des Posttitels auf der Blogseite."
+
+#: classes/Class-customizer.php:1023
+msgid "Posttitle color (hover)"
+msgstr "Posttitelfarbe (Hover)"
+
+#: classes/Class-customizer.php:1024
+msgid "The color of the postttitle on the blog page on hover."
+msgstr "Link-Farbarchivseite (Hover)"
+
+#: classes/Class-customizer.php:1047
+msgid "Category link color (default)"
+msgstr "Navbar Linkfarbe (Standard)"
+
+#: classes/Class-customizer.php:1048
+msgid "The color of the category-link on the blog page."
+msgstr "Link-Farbarchivseite (Standard)"
+
+#: classes/Class-customizer.php:1071
+msgid "Category link color (hover)"
+msgstr "Kategorien-Linkfarbe (hover)"
+
+#: classes/Class-customizer.php:1072
+msgid "The hover color of the category-link on the blog page."
+msgstr "Link-Farbarchivseite (Hover)"
+
+#: classes/Class-customizer.php:1097
+msgid "Tag link color (default)"
+msgstr "Tag-Link Hintergrundfarbe (Standard)"
+
+#: classes/Class-customizer.php:1098
+msgid "The default color of the tag-link on the blog page."
+msgstr "Tag-Link Hintergrundfarbe (Standard)"
+
+#: classes/Class-customizer.php:1121
+msgid "Tag link color (hover)"
+msgstr "Tag-Link Hintergrundfarbe (Hover)"
+
+#: classes/Class-customizer.php:1122
+msgid "The hover color of the tag-link on the blog page."
+msgstr "Tag-Link Hintergrundfarbe (Hover)"
+
+#: classes/Class-customizer.php:1146
+msgid "The permalink color (default)"
+msgstr "Permalink Hintergrundfarbe (Standard)"
+
+#: classes/Class-customizer.php:1147
+msgid "The permalink color on the blog page."
+msgstr "Permalink Hintergrundfarbe (Standard)"
+
+#: classes/Class-customizer.php:1170
+msgid "The permalink color (hover)"
+msgstr "Permalink Hintergrundfarbe (Hover)"
+
+#: classes/Class-customizer.php:1171
+msgid "The permalink hover color on the blog page."
+msgstr "Permalink Hintergrundfarbe (Hover)"
+
+#: classes/Class-customizer.php:1197
+msgid ""
+"How many footer widgets do you want to show? ATTENTION: this setting "
+"requires a hard browser-refresh. [CTRL + R or browser refresh.]"
+msgstr ""
+"Wie viele Footer-Widgets möchtest Du zeigen? ACHTUNG: Diese Einstellung "
+"erfordert einen Hard-Refresh [STRG + R oder Browser-Refresh.]"
+
+#: classes/Class-customizer.php:1200
+msgid "No widgets"
+msgstr "Keine Widgets"
+
+#: classes/Class-customizer.php:1201
+msgid "1 widget (centered)"
+msgstr "1 Widget (zentriert)"
+
+#: classes/Class-customizer.php:1202
+msgid "2 widgets (2 columns)"
+msgstr "2 Widgets (2 Spalten)"
+
+#: classes/Class-customizer.php:1203
+msgid "3 widgets (3 columns)"
+msgstr "3 Widgets (3 Spalten)"
+
+#: classes/Class-customizer.php:1204
+msgid "4 widgets (4 columns)"
+msgstr "4 Widgets (4 Spalten)"
+
+#: classes/Class-customizer.php:1219
+msgid "Footer wigets background color"
+msgstr "Footer Hintergrundfarbe"
+
+#: classes/Class-customizer.php:1220
+msgid "Select the background color of widget area."
+msgstr "Wähle die Hintergrundfarbe der Footer-Widget-Area."
+
+#: classes/Class-customizer.php:1242
+msgid "Footer wigets title color"
+msgstr "Footer-Widget Titelfarbe"
+
+#: classes/Class-customizer.php:1243
+msgid "Select the color of title."
+msgstr "Wähle die Farbe des TItels."
+
+#: classes/Class-customizer.php:1267
+msgid "Back to top button background"
+msgstr "Zurück nach oben Button Hintergrundfarbe (Standard)"
+
+#: classes/Class-customizer.php:1268
+msgid "Select the background color of the back to top button."
+msgstr ""
+"Wählen Sie die Hintergrundfarbe der Schaltfläche \"zurück nach oben\" aus."
+
+#: classes/Class-customizer.php:1291
+msgid "Back to top button background (hover)."
+msgstr "Zurück nach oben Button-Hintergrundfarbe (Hover)"
+
+#: classes/Class-customizer.php:1292 classes/Class-customizer.php:1340
+msgid "Adjust the color of the credits links."
+msgstr "Passe die Farbe der Credits-Links an."
+
+#: classes/Class-customizer.php:1315
+msgid "Credits background color"
+msgstr "Credits Hintergrundfarbe"
+
+#: classes/Class-customizer.php:1316
+msgid "Select the background color of the credits section."
+msgstr "Wähle die Hintergrundfarbe des Credits-Abschnitts aus."
+
+#: classes/Class-customizer.php:1339
+msgid "Credits link color (default)"
+msgstr "Credits Linkfarbe (Standard)"
+
+#: classes/Class-customizer.php:1363
+msgid "Credits link color (hover)"
+msgstr "Credits Linkfarbe (hover)"
+
+#: classes/Class-customizer.php:1364
+msgid "Adjust the color of the links in the credits section on hover."
+msgstr "Passe die Farbe der Links an, wenn die Maus darüber ist."
+
+#: classes/Class-customizer.php:1392
+msgid "Show title on front page?"
+msgstr "Zeige den Titel auf der Startseite?"
+
+#: classes/Class-customizer.php:1406
+msgid "Sidebars"
+msgstr "Sidebars"
+
+#: classes/Class-customizer.php:1407
+msgid "How many sidebars do you want on the frontpage?"
+msgstr "Wie viele Sidebars möchtest Du auf der Startseite?"
+
+#: classes/Class-customizer.php:1412
+msgid "Left Sidebar"
+msgstr "Sidebar Links"
+
+#: classes/Class-customizer.php:1416
+msgid "Full width"
+msgstr "Volle Breite"
+
+#: classes/Class-customizer.php:1420
+msgid "centered content only, no sidebars"
+msgstr "zentrierter Inhalt, keine Sidebars"
+
+#: classes/Class-customizer.php:1424
+msgid "Right Sidebar"
+msgstr "Sidebar Rechts"
+
+#: classes/Class-customizer.php:1428
+msgid "Two sidebars"
+msgstr "Zwei Sidebars"
+
+#: classes/Class-customizer.php:1444
+msgid "Post suggestions"
+msgstr "Post-Vorschläge"
+
+#: classes/Class-customizer.php:1445
+msgid "Make suggestions for posts to the user below an article?"
+msgstr "Mache den Besuchern Vorschläge zu Beiträgen unter einem Artikel?"
+
+#: classes/Class-customizer.php:1460
+msgid "Enable search?"
+msgstr "Suche aktivieren?"
+
+#: classes/Class-customizer.php:1475
+msgid "Main menu indentation by the search button"
+msgstr "Einrückung Hauptmenü"
+
+#: classes/Class-customizer.php:1476
+msgid "Which nth-child should push the menu to the left side?"
+msgstr "Welches nth-Child schiebt das Menü auf die linke Seite?"
+
+#: classes/Class-customizer.php:1479
+msgid "1st child"
+msgstr "1st child"
+
+#: classes/Class-customizer.php:1480
+msgid "2nd child"
+msgstr "2nd child"
+
+#: classes/Class-customizer.php:1481
+msgid "3rd child"
+msgstr "3rd child"
+
+#: classes/Class-customizer.php:1482
+msgid "4th child"
+msgstr "1st child"
+
+#: classes/Class-customizer.php:1496
+msgid "Enable canvas sidebar"
+msgstr "Aktiviere die Canvas-Sidebar"
+
+#: classes/Class-customizer.php:1524
+msgid "Canvas select"
+msgstr "Canvas-Auswahl"
+
+#: classes/Class-customizer.php:1525
+msgid "Where to attach the canvas button."
+msgstr "Wo die Canvas-Schaltfläche angefügt werden soll."
+
+#: classes/Class-customizer.php:1540
+msgid "Canvas button text"
+msgstr "Canvas Button-Text"
+
+#: classes/Class-customizer.php:1541
+msgid "Show a panel that slides out"
+msgstr "Zeige ein Slide-Out Panel"
+
+#: classes/Class-customizer.php:1547
+msgid "Menu"
+msgstr "Menü"
+
+#: classes/Class-customizer.php:1561
+msgid "Replace the menu completely."
+msgstr "Ersetze das Menü vollständig."
+
+#: classes/Class-customizer.php:1576
+msgid "Canvas background color"
+msgstr "Canvas-Hintergrundfarbe"
+
+#: classes/Class-customizer.php:1577
+msgid "The background color of the canvas slide-out panel."
+msgstr "Die Hintergrundfarbe des Canvas Slide-Out Panels."
+
+#: classes/Class-customizer.php:1599
+msgid "Canvas text color"
+msgstr "Canvas-Textfarbe"
+
+#: classes/Class-customizer.php:1600
+msgid "The text color of the canvas slide-out panel."
+msgstr "Die Hintergrundfarbe des Canvas Slide-Out Panels."
+
+#: classes/Class-customizer.php:1623
+msgid "Canvas widgettitle color"
+msgstr "Canvas-Widget Titelfarbe"
+
+#: classes/Class-customizer.php:1624
+msgid "The color of the widgettitles in the  slide-out panel."
+msgstr "Die Farbe des Titels der Widgets im Canvas Slide-Out Panel."
+
+#: classes/Class-customizer.php:1648 classes/Class-customizer.php:1652
+msgid "Logo upload"
+msgstr "Logo-Upload"
+
+#: classes/Class-customizer.php:1649
+msgid "Company logo (upper left corner)."
+msgstr "Firmenlogo (obere linke Ecke)."
+
+#: classes/Class-customizer.php:1666
+msgid "Logo width (px)"
+msgstr "Logo-Breite (px)"
+
+#: classes/Class-customizer.php:1684
+msgid "Logo height (px)"
+msgstr "Logo-Höhe (px)"
+
+#: classes/Class-customizer.php:1702
+msgid "Logo margin-top (px)"
+msgstr "Logo-Abstand nach oben (px)"
+
+#: classes/Class-customizer.php:1720
+msgid "Logo margin-right (px)"
+msgstr "Logo-Abstand nach rechts (px)"
+
+#: classes/Class-customizer.php:1738
+msgid "Logo margin-bottom (px)"
+msgstr "Logo-Abstand nach unten (px)"
+
+#: classes/Class-theme-options.php:54 classes/Class-theme-options.php:55
+#: classes/Class-theme-options.php:130 hooks/wp-before-admin-bar-render.php:19
+msgid "Theme-Settings"
+msgstr "Theme-Menü"
+
+#: classes/Class-theme-options.php:141
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: classes/Class-theme-options.php:142
+msgid "Frontend settings"
+msgstr "Frontend-Einstellungen"
+
+#: classes/Class-theme-options.php:143
+msgid "Backend settings"
+msgstr "Backend-Einstellungen"
+
+#: classes/Class-theme-options.php:160
+msgid "Headless Mode"
+msgstr "Headless-Modus"
+
+#: classes/Class-theme-options.php:167
+msgid "Enable headless mode and redirect all requests to the login page"
+msgstr ""
+"Aktiviere den Headless-Modus und leite alle Anfragen zur Login-Seite weiter"
+
+#: classes/Class-theme-options.php:174 classes/Class-theme-options.php:215
+#: classes/Class-theme-options.php:261 classes/Class-theme-options.php:302
+#: classes/Class-theme-options.php:348
+msgid "off"
+msgstr "aus"
+
+#: classes/Class-theme-options.php:183 classes/Class-theme-options.php:224
+#: classes/Class-theme-options.php:270 classes/Class-theme-options.php:311
+#: classes/Class-theme-options.php:357 hooks/theme-functions.php:160
+msgid "on"
+msgstr "an"
+
+#: classes/Class-theme-options.php:201
+msgid "Debug mode"
+msgstr "Debug-Modus"
+
+#: classes/Class-theme-options.php:208
+msgid "Enable Bootstrap 4 media query debug mode"
+msgstr "Zeige eine Bo"
+
+#: classes/Class-theme-options.php:247
+msgid "Script Loading"
+msgstr "Script-Ladeposition"
+
+#: classes/Class-theme-options.php:254
+msgid "Load the Bootstrap scripts in the head"
+msgstr "Lade die Boostrap-Skripte im <head>"
+
+#: classes/Class-theme-options.php:254
+msgid "Default is footer"
+msgstr "Standard ist Footer"
+
+#: classes/Class-theme-options.php:288
+msgid "Backend Ad-Blocker"
+msgstr "Backend Ad-Blocker"
+
+#: classes/Class-theme-options.php:295
+msgid "Activate the back-end ad-blocker"
+msgstr "Aktiviere den Backend Ad-Blocker"
+
+#: classes/Class-theme-options.php:334
+msgid "Gutenberg-Tips"
+msgstr "Gutenberg Tipps"
+
+#: classes/Class-theme-options.php:341
+msgid "Disable annoying Gutenberg-Tips"
+msgstr "Deaktiviere nervige Gutenberg-Tipps"
+
+#: comments.php:4
+msgid "Comments to"
+msgstr "Kommentare zu"
+
+#: comments.php:35
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: comments.php:35
+msgid "Log out"
+msgstr "Abmelden"
+
+#: front-page.php:12
+msgid "News"
+msgstr "News"
+
+#: hooks/admin-enqueue-scripts.php:96
+msgid "insert image"
+msgstr "Bild einfügen"
+
+#: hooks/admin-enqueue-scripts.php:97
+msgid "use this image"
+msgstr "Bild verwenden"
+
+#: hooks/after-setup-theme.php:12
+msgid "top left menu"
+msgstr "oberes linkes Menü"
+
+#: hooks/after-setup-theme.php:13
+msgid "top right menu"
+msgstr "oberes rechtes Menü"
+
+#: hooks/after-setup-theme.php:20
+msgid "bottom left menu"
+msgstr "unteres linkes Menü"
+
+#: hooks/after-setup-theme.php:21
+msgid "bottom right menu"
+msgstr "unteres rechtes Menü"
+
+#: hooks/after-setup-theme.php:26
+msgid "main menu"
+msgstr "Hauptmenü"
+
+#: hooks/after-setup-theme.php:27
+msgid "error 404 menu"
+msgstr "404-Fehlermenü"
+
+#: hooks/after-setup-theme.php:28
+msgid "credits menu"
+msgstr "Credits-Menü"
+
+#: hooks/avatar-defaults.php:5
+msgid "Bootstrap default avatar"
+msgstr "Bootstrap Standard-Avatar"
+
+#: hooks/category-image.php:6 hooks/category-image.php:31
+#: hooks/category-image.php:63
+msgid "Category image"
+msgstr "Kategoriebild"
+
+#: hooks/category-image.php:36
+msgid "An image, which represets the category."
+msgstr "Ein Bild, welches die Kategorie repräsentiert."
+
+#: hooks/category-image.php:38
+msgid "Upload category image"
+msgstr "Kategoriebild hochladen"
+
+#: hooks/category-image.php:69
+msgid "An image representing the category."
+msgstr "Ein Bild, welches die Kategorie repräsentiert."
+
+#: hooks/category-image.php:71
+msgid "Category image upload"
+msgstr "Kategorie Bild hochladen"
+
+#: hooks/customize-register-custom-logo.php:16
+msgid "Image upload"
+msgstr "Bild-Upload"
+
+#: hooks/customize-register-custom-logo.php:17
+msgid "Upload images or a logo of your company or your product."
+msgstr ""
+"Lade Bilder oder ein Logo Deines Unternehmens oder Deines Produktes hoch."
+
+#: hooks/customize-register-custom-logo.php:24
+msgid "Your current logo"
+msgstr "Dein aktuelles Logo"
+
+#: hooks/customize-register-custom-logo.php:29
+msgid "Author background image"
+msgstr "Author-Hintergrundbild"
+
+#: hooks/theme-functions.php:111
+msgid "reply"
+msgstr "antworten"
+
+#: hooks/theme-functions.php:144
+msgid "says"
+msgstr "sagt"
+
+#: hooks/theme-functions.php:148
+msgid "at"
+msgstr "bei"
+
+#: hooks/theme-functions.php:156
+msgid "o'clock"
+msgstr "Uhr"
+
+#: hooks/theme-functions.php:195
+msgid "no comments yet"
+msgstr "noch keine Kommentare"
+
+#: hooks/theme-functions.php:197
+msgid "Comments"
+msgstr "Kommentare"
+
+#: hooks/theme-functions.php:199
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: hooks/theme-functions.php:202
+msgid "Comments closed"
+msgstr "Kommentare geschlossen"
+
+#. Template Name of the plugin/theme
+#: hooks/widgets-init.php:9
+msgid "Sidebar Left"
+msgstr "Linke Sidebar"
+
+#: hooks/widgets-init.php:11
+msgid "Left standard sidebar"
+msgstr "Linke Standard-Sidebar"
+
+#: hooks/widgets-init.php:18
+msgid "Sidebar Right"
+msgstr "Rechte Sidebar"
+
+#: hooks/widgets-init.php:20
+msgid "Right standard sidebar"
+msgstr "Rechte Standard-Sidebar"
+
+#: hooks/widgets-init.php:29
+msgid "Canvas Sidebar widget"
+msgstr "Sidebar Canvas-Widget"
+
+#: hooks/widgets-init.php:31
+msgid "Canvas widget when activated in the theme options"
+msgstr "Canvas-Widget, wenn es in den Customizer-Optionen aktiviert ist"
+
+#: hooks/widgets-init.php:46
+msgid "Single Footer Widget"
+msgstr "Einzelnes Footer-Widget"
+
+#: hooks/widgets-init.php:47
+msgid "Footer widget in the lower section of the theme."
+msgstr "Footer-Widgets im unteren Bereich des Theme's."
+
+#: hooks/widgets-init.php:56 hooks/widgets-init.php:76
+#: hooks/widgets-init.php:104
+msgid "Left Footer Widget"
+msgstr "Linkes Footer-Widget"
+
+#: hooks/widgets-init.php:57
+msgid "Left footer widget in the lower section of the theme."
+msgstr "Footer-Widgets im unteren Bereich des Theme's."
+
+#: hooks/widgets-init.php:64 hooks/widgets-init.php:92
+#: hooks/widgets-init.php:128
+msgid "Right Footer Widget"
+msgstr "Rechtes Footer-Widget"
+
+#: hooks/widgets-init.php:65
+msgid "Right footer widget in the lower section of the theme."
+msgstr "Footer-Widgets im unteren rechten Bereich des Theme's."
+
+#: hooks/widgets-init.php:77 hooks/widgets-init.php:105
+msgid "Left footer widget in the middle of the lower footer section."
+msgstr "Footer-Widgets im unteren linken Bereich des Theme's."
+
+#: hooks/widgets-init.php:84
+msgid "Center Footer Widget"
+msgstr "Mittige Footer-Widgets"
+
+#: hooks/widgets-init.php:85
+msgid "Centered footer widget in the middle of the lower footer section."
+msgstr "Zentriertes Footer-Widget im Footer-Bereich."
+
+#: hooks/widgets-init.php:93 hooks/widgets-init.php:129
+msgid "Right footer widget in the middle of the lower footer section."
+msgstr "Footer-Widgets im unteren rechten Bereich des Theme's."
+
+#: hooks/widgets-init.php:112
+msgid "Center Left Footer Widget"
+msgstr "Links-Mittiges Footer-Widget"
+
+#: hooks/widgets-init.php:113
+msgid "Left centered footer widget in the middle of the lower footer section."
+msgstr "Links zentriertes Fuß-Widget in der Mitte des unteren Fußabschnitts."
+
+#: hooks/widgets-init.php:120
+msgid "Center Right Footer Widget"
+msgstr "Rechts-Mittiges Footer-Widget"
+
+#: hooks/widgets-init.php:121
+msgid "Right centered footer widget in the middle of the lower footer section."
+msgstr "Rechts zentriertes Fuß-Widget in der Mitte des unteren Fußabschnitts."
+
+#: hooks/widgets-init.php:144
+msgid "Sidebar WooCommerce"
+msgstr "Sidebar WooCommerce"
+
+#: hooks/widgets-init.php:146
+msgid "WooCommerce sidebar visible on all woocommerce pages."
+msgstr "WooCommerce Sidebar, sichtbar auf allen WooCommerce-Seiten."
+
+#: hooks/woocommerce-hooks.php:24 hooks/woocommerce-hooks.php:26
+msgid "Back to shop"
+msgstr "Zurück zum Shop"
+
+#: hooks/wp-dashboard-setup.php:8
+msgid "Current theme: Bootstrap"
+msgstr "Aktuelles Thema: Bootstrap"
+
+#: hooks/wp-dashboard-setup.php:27
+msgid "Quick controls"
+msgstr "Schnellmenü"
+
+#: hooks/wp-dashboard-setup.php:29
+msgid "Theme-settings"
+msgstr "Theme-Einstellungen"
+
+#: hooks/wp-dashboard-setup.php:30
+msgid "Edit menus"
+msgstr "Menüs bearbeiten"
+
+#: hooks/wp-dashboard-setup.php:31
+msgid "Edit widgets"
+msgstr "Widgets bearbeiten"
+
+#: hooks/wp-title.php:21
+msgid "Page %"
+msgstr "Seite %"
+
+#: tag.php:10
+msgid "All posts tagged with"
+msgstr "Alle Beiträge mit Schlagwort"
+
+#: templates/alert.php:7
+msgid "Close"
+msgstr "Schließen"
+
+#: templates/credits.php:6
+msgid "Back to top"
+msgstr "Zurück zum Shop"
+
+#: templates/credits.php:33
+msgid "All rights reserved"
+msgstr "Alle Rechte vorbehalten"
+
+#: templates/custom-logo.php:2
+msgid "Start"
+msgstr "Start"
+
+#: templates/loops/loop-archive.php:26 templates/loops/loop-single.php:8
+msgid "Category"
+msgstr "Kategorie"
+
+#: templates/loops/loop-archive.php:45 templates/loops/loop-single.php:24
+msgid "posted by"
+msgstr "gepostet von"
+
+#: templates/loops/loop-archive.php:60 templates/loops/loop-archive.php:62
+#: templates/post-suggestions.php:47
+msgid "Continue to article"
+msgstr "Weiter zum Artikel"
+
+#: templates/post-suggestions.php:28
+msgid "Maybe you are interested in the following topics"
+msgstr "Vielleicht interessiert Dich ja auch Folgendes"
+
+#: woocommerce/archive-product.php:8
+msgid "Shop"
+msgstr "Shop"
+
+#: woocommerce/archive-product.php:24
+msgid ""
+"The are currently no products in stock. Please come back later. Thank you."
+msgstr ""
+"Aktuell befinden sich keine Artikel im Shop. Bitte komme zu einem späteren "
+"Zeitpunkt wieder."
+
+#. Theme Name of the plugin/theme
+msgid "Bootstrap (V5.1.3)"
+msgstr "Bootstrap (V5.1.3)"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.wordpress-geek.com/themes/bootstrap"
+msgstr "https://www.wordpress-geek.com/themes/bootstrap"
+
+#. Description of the plugin/theme
+msgid "WordPress Bootstrap 5 Theme for WP 5.5+."
+msgstr "WordPress Bootstrap 5 Theme für WP 5.5 +."
+
+#. Author of the plugin/theme
+msgid "Tobias Hopp"
+msgstr "Tobias Hopp"
+
+#. Author URI of the plugin/theme
+msgid "https://www.wordpress-geek.com/themes"
+msgstr "http://www.wordpress-geek.com/themes"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#. Template Name of the plugin/theme
+msgid "No Sidebars"
+msgstr "Keine Sidebars"
+
+#. Template Name of the plugin/theme
+msgid "Two Sidebars"
+msgstr "Zwei Sidebars"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Select weight & style for regular text"
+#~ msgstr "Wähle die Größe & den Stil für regulären Text"
+
+#~ msgid "Select weight for"
+#~ msgstr "Wähle die Breite für"
+
+#~ msgid "italic text"
+#~ msgstr "Kursiver Text"
+
+#~ msgid "bold text"
+#~ msgstr "Fetttext"
+
+#~ msgid "Color value"
+#~ msgstr "Farbwert"
+
+#~ msgid "Select Color"
+#~ msgstr "Farbe auswählen"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "Select default color"
+#~ msgstr "Standard-Farbe wählen"
+
+#~ msgid "Clear"
+#~ msgstr "Löschen"
+
+#~ msgid "Clear color"
+#~ msgstr "Farbe löschen"
+
+#~ msgid "Follow me on Behance"
+#~ msgstr "Folgen Sie uns auf Behance"
+
+#~ msgid "Fork me on Bitbucket"
+#~ msgstr "Fork uns auf BitBucket"
+
+#~ msgid "Follow me on CodePen"
+#~ msgstr "Folge mir auf CodePen"
+
+#~ msgid "Watch me on DeviantArt"
+#~ msgstr "Folgen Sie uns auf Behance"
+
+#~ msgid "Join me on Discord"
+#~ msgstr "Begleiten Sie mich auf Discord"
+
+#~ msgid "Follow me on Dribbble"
+#~ msgstr "Folge uns auf Dribbble"
+
+#~ msgid "favorite me on Etsy"
+#~ msgstr "favorite me auf Etsy"
+
+#~ msgid "Like me on Facebook"
+#~ msgstr "Like uns auf Facebook"
+
+#~ msgid "Connect with me on Flickr"
+#~ msgstr "Verbinden Sie sich mit mir auf Flickr"
+
+#~ msgid "Follow me on Foursquare"
+#~ msgstr "Folgen Sie mir auf Foursquare"
+
+#~ msgid "Fork me on GitHub"
+#~ msgstr "Gabeln Sie mich auf GitHub"
+
+#~ msgid "Follow me on Instagram"
+#~ msgstr "Folge mir auf Instagram"
+
+#~ msgid "Back me on Kickstarter"
+#~ msgstr "Back me auf Kickstarter"
+
+#~ msgid "Follow me on Last.fm"
+#~ msgstr "Folgen Sie mir auf Last.fm"
+
+#~ msgid "Connect with me on LinkedIn"
+#~ msgstr "Verbinden dich mit mir auf LinkedIn"
+
+#~ msgid "Follow me on Medium"
+#~ msgstr "Folge mir auf Medium"
+
+#~ msgid "Support me on Patreon"
+#~ msgstr "Unterstützen Sie mich bei Patreon"
+
+#~ msgid "Follow me on Pinterest"
+#~ msgstr "Folge mir auf Pinterest"
+
+#~ msgid "Connect with me on Google+"
+#~ msgstr "Verbinden Sie sich mit mir auf Google+"
+
+#~ msgid "Join me on Reddit"
+#~ msgstr "Begleiten Sie mich auf Reddit"
+
+#~ msgid "Join me on Slack"
+#~ msgstr "Begleiten Sie mich auf Slack"
+
+#~ msgid "Follow me on SlideShare"
+#~ msgstr "Folge mir auf SlideShare"
+
+#~ msgid "Add me on Snapchat"
+#~ msgstr "Füge mich auf Snapchat hinzu"
+
+#~ msgid "Follow me on SoundCloud"
+#~ msgstr "Folge mir auf SoundCloud"
+
+#~ msgid "Follow me on Spotify"
+#~ msgstr "Folge mir auf Spotify"
+
+#~ msgid "Join me on Stack Overflow"
+#~ msgstr "Begleiten Sie mich auf Stack Overflow"
+
+#~ msgid "Follow me on Tumblr"
+#~ msgstr "Folge und auf Tumblr"
+
+#~ msgid "Follow me on Twitch"
+#~ msgstr "Folge mir auf Twitch"
+
+#~ msgid "Follow me on Twitter"
+#~ msgstr "Folge mir auf Twitter"
+
+#~ msgid "Follow me on Vimeo"
+#~ msgstr "Folgen Sie mir auf Vimeo"
+
+#~ msgid "Follow me on weibo"
+#~ msgstr "Folge mir auf weibo"
+
+#~ msgid "Subscribe to me on YouTube"
+#~ msgstr "Abonnieren Sie mich auf YouTube"
+
+#~ msgid "This is an alert message"
+#~ msgstr "Dies ist eine Alert-Nachricht"
+
+#~ msgid "https://www.example.com"
+#~ msgstr "http://www.example.com"
+
+#~ msgid "Follow this link."
+#~ msgstr "Folge diesem Link."
+
+#~ msgid "Search"
+#~ msgstr "Suche"
+
+#~ msgid "You are here"
+#~ msgstr "Sie sind hier"
+
+#~ msgid "close"
+#~ msgstr "schließen"
+
+#~ msgid "Visit our online shop"
+#~ msgstr "Zum Online-Shop"
+
+#~ msgid "Visit Facebook"
+#~ msgstr "Facebook besuchen"
+
+#~ msgid "Visit Twitter"
+#~ msgstr "Twitter besuchen"
+
+#~ msgid "Visit Instagram"
+#~ msgstr "Instagramm besuchen"
+
+#~ msgid "Visit Linkedin"
+#~ msgstr "LinkedIn besuchen"
+
+#~ msgid "Visit GitHub"
+#~ msgstr "GitHub besuchen"
+
+#~ msgid "Visit BitBucket"
+#~ msgstr "BitBucket besuchen"
+
+#~ msgid "Visit YouTube"
+#~ msgstr "YouTube besuchen"
+
+#~ msgid "WooCommerce sidebar"
+#~ msgstr "WooCommerce Sidebar"
+
+#~ msgid "Brand image upload"
+#~ msgstr "Kategorie-Bild-Upload"
+
+#~ msgid ""
+#~ "No shortcode given. Please provide a slideshow shortcode in the "
+#~ "customizer."
+#~ msgstr ""
+#~ "Kein Shortcode für die Slideshow angegeben. Bitte einen Shortcode im "
+#~ "Customizer angeben."
+
+#~ msgid "Gundlach-IT"
+#~ msgstr "Gundlach-IT"
+
+#~ msgid "https://www.gundlach-automotive.de/themes"
+#~ msgstr "https://www.gundlach-automotive.de/themes"
+
+#~ msgid "Get in touch"
+#~ msgstr "Kontaktieren Sie uns"
+
+#~ msgid "Emplyoees"
+#~ msgstr "Mitarbeiter"
+
+#~ msgid "Locations"
+#~ msgstr "Standorte"
+
+#, fuzzy
+#~| msgid "Error 404"
+#~ msgid "Uups, error 404"
+#~ msgstr "404-Fehler"
+
+#~ msgid "Sorry, this page could not be found (Error 404)"
+#~ msgstr ""
+#~ "Entschuldigung, diese Seite konnte nicht gefunden werden (Fehler-404)"
+
+#~ msgid "Alpha Color Picker Control"
+#~ msgstr "Alpha Color Picker Control"
+
+#~ msgid "Sample custom control description"
+#~ msgstr "Beispiel-Beschreibung"
+
+#~ msgid "Advanced settings"
+#~ msgstr "Erweiterte Einstellungen"
+
+#~ msgid "How many footer widgets would you like to show"
+#~ msgstr "Wie viele Footer-Widgets möchtest Du zeigen"
+
+#~ msgid "1 widget"
+#~ msgstr "1 Widget"
+
+#~ msgid "2 widgets"
+#~ msgstr "2 Widgets"
+
+#~ msgid "3 widgets"
+#~ msgstr "3 Widgets"
+
+#~ msgid "4 widgets"
+#~ msgstr "4 Widgets"
+
+#~ msgid "How many footer widgets do you want to show?"
+#~ msgstr "Wie viele Footer-Widgets möchtest Du zeigen?"
+
+#~ msgid "Widgets size"
+#~ msgstr "Widgets-Anzahl"
+
+#~ msgid "How many widgets do you want to show in the footer?"
+#~ msgstr "Wie viele Widgets möchtest Du im Footer zeigen?"
+
+#~ msgid "Show post suggestions to the user?"
+#~ msgstr "Schlage Benutzern themenverwandte Beiträge vor?"
+
+#~ msgid "Logo max width (px)"
+#~ msgstr "Maximale Logo-Breite (px)"
+
+#~ msgid "Canvas sidebar"
+#~ msgstr "Canvas-Sidebar"
+
+#~ msgid "Activate the canvas sidebar"
+#~ msgstr "Aktiviere die Canvas-Sidebar"
+
+#~ msgid "Please select the menu to replace"
+#~ msgstr "Bitte wähle das zu ersetzende Menü"
+
+#~ msgid "Replace the menu completely"
+#~ msgstr "Ersetze das Menü vollständig"
+
+#~ msgid "Button text"
+#~ msgstr "Button-Text"
+
+#~ msgid "Show an alert message to all visitors in the head section."
+#~ msgstr "Zeige eine Alert-Nachricht im Kopfbereich der Webseite."
+
+#~ msgid "Green (Success)"
+#~ msgstr "Grün (Success)"
+
+#~ msgid "Yellow (Warning)"
+#~ msgstr "Gelb (Warning)"
+
+#~ msgid "Red (Danger)"
+#~ msgstr "Rot (Danger)"
+
+#~ msgid "Blue (Info)"
+#~ msgstr "Blau (Info)"
+
+#~ msgid "Enter your alert text here and pick a color"
+#~ msgstr "Gib' hier Deinen Alert-Text ein und wähle anschließend eine Farbe"
+
+#~ msgid "Please select an expiry date of the alert message"
+#~ msgstr "Bitte wähle ein Ablaufdatum der Alert-Nachricht aus"
+
+#~ msgid "Expires on"
+#~ msgstr "Läuft ab am"
+
+#~ msgid "xx.xx.xxxx"
+#~ msgstr "xx.xx.xxxx"
+
+#~ msgid "Theme design"
+#~ msgstr "Theme-Design"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Upload the brand logo."
+#~ msgstr "Das Logo der Webseite."
+
+#~ msgid "Navbar &amp; Logo"
+#~ msgstr "Hauptnavigation &amp; Logo"
+
+#~ msgid "Slide 1 title"
+#~ msgstr "Slide 1 title"
+
+#~ msgid "My super slide"
+#~ msgstr "Meine Superrutsche"
+
+#~ msgid "Slide 1 content"
+#~ msgstr "Slide 1 Inhalt"
+
+#~ msgid "Enter the text for the first slide."
+#~ msgstr "Gib' den Titel des ersten Slide ein."
+
+#~ msgid "Main menu indentation"
+#~ msgstr "Einrückung Hauptmenü"
+
+#~ msgid "Which nth-child would you like to align right"
+#~ msgstr "Welches nth-Child möchtest Du rechts ausrichten"
+
+#~ msgid "Search button position"
+#~ msgstr "Such-Button Position"
+
+#~ msgid "Where do you want to show the search button on desktop"
+#~ msgstr "Wo soll der Such-Button angezeigt werden"
+
+#~ msgid "Frontpage"
+#~ msgstr "Startseite"
+
+#~ msgid "Show a title on the front-page"
+#~ msgstr "Zeige den Titel auf der Startseite"
+
+#~ msgid "How many sidebars do you want on the front-page"
+#~ msgstr "Wie viele Sidebars möchtest Du auf der Startseite"
+
+#~ msgid "No sidebar, full width"
+#~ msgstr "Keine Sidebar, volle Breite"
+
+#~ msgid "No sidebar, content only"
+#~ msgstr "Keine Sidebar, nur Inhalt"
+
+#~ msgid "1 sidebar, right side"
+#~ msgstr "Sidebar rechts"
+
+#~ msgid "1 sidebar, left side"
+#~ msgstr "Sidebar links"
+
+#~ msgid "2 sidebars, left and right"
+#~ msgstr "2 Sidebars, links und rechts"
+
+#~ msgid "Add service"
+#~ msgstr "Service hinzufügen"
+
+#~ msgid "Enter service"
+#~ msgstr "Service hinzufügen"
+
+#~ msgid "Social Media Widget"
+#~ msgstr "Social Media Widget"
+
+#~ msgid "Show your social media activities"
+#~ msgstr "Zeige Deine Social Media Aktivitäten"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Social Media settings"
+#~ msgstr "Social Media Einstellungen"
+
+#~ msgid "Top bar"
+#~ msgstr "Obere Navigationsleiste"
+
+#~ msgid "Bottom bar"
+#~ msgstr "Untere Navigationsleiste"
+
+#~ msgid "Container width"
+#~ msgstr "Container-Breite"
+
+#~ msgid "Upper navbar"
+#~ msgstr "Obere Navigation"
+
+#~ msgid "narrow"
+#~ msgstr "schmal"
+
+#~ msgid "wide"
+#~ msgstr "breit"
+
+#~ msgid "Main navbar"
+#~ msgstr "Hauptnavigation"
+
+#~ msgid "Lower navbar"
+#~ msgstr "Untere Navigation"
+
+#~ msgid "Select the width of the widget section"
+#~ msgstr "Footer Widgets"
+
+#~ msgid "Social Media"
+#~ msgstr "Social Media"
+
+#~ msgid "Activate the social media functions"
+#~ msgstr "Aktivere die Social Media Funktionen"
+
+#~ msgid "Shop-URL"
+#~ msgstr "Shop-URL"
+
+#~ msgid "Paste your shop url here"
+#~ msgstr "Füge Deine Shop-URL hier ein"
+
+#~ msgid "Facebook Page"
+#~ msgstr "Facebook Seite"
+
+#~ msgid "Paste your Facebook url here"
+#~ msgstr "Kopiere Deine Facebook-URL hier rein"
+
+#~ msgid "Twitter Profile"
+#~ msgstr "Twitter-Profil"
+
+#~ msgid "Paste your Twitter url here"
+#~ msgstr "Füge Deine Twitter-URL hier ein"
+
+#~ msgid "Instagram Profile"
+#~ msgstr "Instagram-Profil"
+
+#~ msgid "Paste your Instagram url here"
+#~ msgstr "Füge Deine Instagramm-URL hier ein"
+
+#~ msgid "linkedin Profile"
+#~ msgstr "LinkedIn-Profil"
+
+#~ msgid "github Profile"
+#~ msgstr "Github-Profil"
+
+#~ msgid "Paste your github url here"
+#~ msgstr "Füge Deine GitHub-URL hier ein"
+
+#~ msgid "bitbucket Profile"
+#~ msgstr "Bitbucket-Profil"
+
+#~ msgid "Paste your bitbucket url here"
+#~ msgstr "Füge Deine Bitbucket-URL hier ein"
+
+#~ msgid "YouTube Channel"
+#~ msgstr "YouTube-Kanal"
+
+#~ msgid "Paste your YouTube-channel url here"
+#~ msgstr "Fügen Deine YouTube-Kanal-URL hier ein"
+
+#, fuzzy
+#~| msgid "Show a bottom bar with navigation below the main navbar"
+#~ msgid "Show a navbar below the main navbar?"
+#~ msgstr "Zeige eine untere Navigationsleiste unter dem Hauptmenü"
+
+#~ msgid "Color Customizer"
+#~ msgstr "Farb-Customizer"
+
+#~ msgid "Enable the WordPress Customizer in the frontend"
+#~ msgstr "Aktiviere den WordPress Customizer im Frontend"
+
+#~ msgid "Google Fonts"
+#~ msgstr "Google Fonts"
+
+#~ msgid "Activate Google-Fonts"
+#~ msgstr "Aktiviere Google-Fonts"
+
+#~ msgid "Start picking your collection on"
+#~ msgstr "Beginne mit dem Auswählen von Schriften auf"
+
+#~ msgid "Paste your Google Fonts url here"
+#~ msgstr "Kopiere Deine Google-Fonts URL hier rein"
+
+#, fuzzy
+#~| msgid "Header styling"
+#~ msgid "Header"
+#~ msgstr "Header-Styling"
+
+#~ msgid "Default header image"
+#~ msgstr "Standard-Headerbild"
+
+#~ msgid "Adjust the colors of the canvas sidebar."
+#~ msgstr "Wähle die Hintergrundfarbe der Canvas-Sidebar."
+
+#~ msgid "Adjust the colors in the content section."
+#~ msgstr "Passen Sie die Farben im Inhaltsabschnitt an."
+
+#~ msgid "Footer styling"
+#~ msgstr "Footer-Styling"
+
+#~ msgid "Social media styling"
+#~ msgstr "Social-Media-Styling"
+
+#~ msgid "Adjust the colors of the social media secion."
+#~ msgstr "Passen Sie die Farben der Social-Media-Sekion an."
+
+#~ msgid "Back to top button styling"
+#~ msgstr "Zurück nach oben Button-Styling"
+
+#~ msgid "Adjust the colors of the Back to top button."
+#~ msgstr "Passen Sie die Farben der Schaltfläche Von hinten nach oben an."
+
+#~ msgid "Breadcrumbs link color (default)"
+#~ msgstr "Brotkrümmel Linkfarbe (Standard)"
+
+#~ msgid "Tag link background color (default)"
+#~ msgstr "Tag-Link Hintergrundfarbe (Standard)"
+
+#~ msgid "Tag link background color (hover)"
+#~ msgstr "Tag-Link Hintergrundfarbe (Hover)"
+
+#~ msgid "Permalink background color (default)"
+#~ msgstr "Permalink Hintergrundfarbe (Standard)"
+
+#~ msgid "Permalink background color (hover)"
+#~ msgstr "Permalink Hintergrundfarbe (Hover)"
+
+#~ msgid "Back to top button background color (default)"
+#~ msgstr "Zurück nach oben Button Hintergrundfarbe (Standard)"
+
+#~ msgid "Social Media section Background color"
+#~ msgstr "Social Media Sektion Hintergrundfarbe"
+
+#~ msgid "Icon font color"
+#~ msgstr "Icon-Farbe (Standard)"
+
+#~ msgid "Icon hover color"
+#~ msgstr "Icon-Farbe (Hover)"

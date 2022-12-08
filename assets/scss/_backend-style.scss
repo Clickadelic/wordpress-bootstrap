@@ -1,0 +1,272 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  line-height: 1.4em;
+  background: #f1f1f1;
+}
+
+.device-preview-frame {
+  background: url("../images/MAC-Background.png") top center no-repeat;
+  background-size: 100%;
+  margin: 15px auto 0 auto;
+  display: block;
+  width: 260px;
+  height: 225px;
+}
+
+.preview {
+  display: block;
+  position: relative;
+  top: 0;
+  left: -13px;
+  width: 236px;
+  height: 148px;
+  overflow: hidden;
+  margin: 12px auto 0 auto;
+  background: url("../../screenshot.png") top center no-repeat;
+  background-size: 100%;
+}
+
+.controller-box {
+  h3 {
+    font-weight: bold !important;
+    margin-bottom: 15px !important;
+  }
+  .controller-list {
+    li {
+      width: 30%;
+      display: inline-block;
+      float: left;
+      margin-right: 5%;
+      margin-bottom: 10px;
+      .status-dot {
+        position: relative;
+        right: 0;
+        top: 10px;
+        background: #f5f5f5;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+      }
+      .dashicons {
+        margin-right: 5px;
+        color: #82878c;
+      }
+      .label {
+        color: #82878c;
+      }
+      .value {
+        margin-right: 5px;
+        font-weight: bold;
+        color: #82878c;
+      }
+    }
+    li:nth-child(3n + 3) {
+      margin-right: 0;
+    }
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.controller-box:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+///////////////////////////////////////////////////////
+// Options Page
+///////////////////////////////////////////////////////
+.settings-tabs {
+  margin-top: 30px;
+  .tab-content {
+    padding: 15px 0;
+  }
+}
+
+// h2
+.settings-title {
+  font-size: 21px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  svg {
+    width: 1rem;
+    height: 1rem;
+    margin-top: -5px;
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+}
+
+// Div mit p
+.settings-text {
+  border-radius: 0;
+  padding: 6px 10px 6px 0;
+  p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+}
+
+select.custom-select {
+  height: 38px;
+  padding-left: 10px;
+}
+
+// Switch Toggle Checkbox
+.wrap-switch {
+  background: #e9ecef;
+  padding-top: 7px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+}
+
+.switch {
+  position: relative;
+  float: left;
+  width: 55px;
+  height: 23px;
+}
+
+.switch:after {
+  content: "";
+  display: table;
+}
+
+.switch input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.switch label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 23px;
+  background: tomato;
+  border-radius: 50px;
+}
+
+.switch label:after {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 21px;
+  height: 21px;
+  content: "";
+  border-radius: 50px;
+  background-color: white;
+  transition: all 0.1s;
+}
+
+.switch input[type="checkbox"]:checked + label:after {
+  left: 33px;
+}
+.switch input[type="checkbox"]:checked + label {
+  background: lightgreen;
+}
+
+// On/Off Label
+.input-group.settings-group {
+  flex-wrap: nowrap;
+}
+.input-group > .input-group-prepend > .input-group-text {
+  border-right: 0;
+}
+.input-group > .input-group-append > .input-group-text {
+  border-left: 0;
+}
+
+// Container width
+.container-width-settings {
+  margin-left: 32px;
+}
+
+// Alert Settings
+#alert-settings-preview {
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.custom-form-group {
+  margin-right: 4px;
+}
+
+// User Profile Page Backend
+body.profile-php {
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+// Since BS-Gravatar is broken sometimes, shitty and ugly, custom avatar
+// doesn't always work so... let's just hide that crap
+.user-profile-picture {
+  display: none;
+}
+
+// jQuery Datepicker Plugin
+.datepicker {
+  .prev,
+  .next {
+    background: #f1f1f1;
+    i {
+      display: block;
+      color: $primary;
+    }
+  }
+}
+
+#dashboard_right_now ul {
+  padding-left: 0;
+}
+
+.form-field.term-image-upload-wrap {
+  width: 95%;
+  margin-bottom: 2rem;
+}
+
+.term-image-upload-field {
+  height: 90px;
+  border-radius: 4px;
+  border: 1px solid #8c8f94;
+  margin-bottom: 2px;
+  background-color: $white;
+}
+
+.backend-term-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+// Category image upload
+.form-field.term-image-upload-wrap {
+	width: 95%;
+	margin-bottom: 2rem;
+}
+
+.cat-image-preview-field {
+	background-color: $white;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+	overflow: hidden;
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+    max-height: 180px;
+	}
+}
