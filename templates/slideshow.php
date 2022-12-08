@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col">
 				<!-- Your shortcode here -->
-				<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
+				<?php echo do_shortcode('[smartslider3 slider="1"]'); ?>
 			</div>
 		</div>
 	</div>
