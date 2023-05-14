@@ -1,2 +1,2 @@
-# bootstrap
-A WordPress Theme based on Bootstrap, currently 5.2.2
+# WordPress Bootstrap
+A WordPress Theme based on the current Bootstrap CSS.
