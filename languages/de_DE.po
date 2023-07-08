@@ -1,16 +1,15 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Bootstrap (V5)\n"
-"POT-Creation-Date: 2022-06-23 21:33+0200\n"
-"PO-Revision-Date: 2022-06-23 21:36+0200\n"
+"Project-Id-Version: Bootstrap (5.3.0)\n"
+"POT-Creation-Date: 2023-07-09 01:49+0200\n"
+"PO-Revision-Date: 2023-07-09 01:50+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -840,60 +839,60 @@ msgstr "Frontend-Einstellungen"
 msgid "Backend settings"
 msgstr "Backend-Einstellungen"
 
-#: classes/Class-theme-options.php:160
+#: classes/Class-theme-options.php:158
 msgid "Headless Mode"
 msgstr "Headless-Modus"
 
-#: classes/Class-theme-options.php:167
+#: classes/Class-theme-options.php:165
 msgid "Enable headless mode and redirect all requests to the login page"
 msgstr ""
 "Aktiviere den Headless-Modus und leite alle Anfragen zur Login-Seite weiter"
 
-#: classes/Class-theme-options.php:174 classes/Class-theme-options.php:215
-#: classes/Class-theme-options.php:261 classes/Class-theme-options.php:302
-#: classes/Class-theme-options.php:348
+#: classes/Class-theme-options.php:172 classes/Class-theme-options.php:212
+#: classes/Class-theme-options.php:255 classes/Class-theme-options.php:294
+#: classes/Class-theme-options.php:337
 msgid "off"
 msgstr "aus"
 
-#: classes/Class-theme-options.php:183 classes/Class-theme-options.php:224
-#: classes/Class-theme-options.php:270 classes/Class-theme-options.php:311
-#: classes/Class-theme-options.php:357 hooks/theme-functions.php:160
+#: classes/Class-theme-options.php:181 classes/Class-theme-options.php:221
+#: classes/Class-theme-options.php:264 classes/Class-theme-options.php:303
+#: classes/Class-theme-options.php:346 hooks/theme-functions.php:160
 msgid "on"
 msgstr "an"
 
-#: classes/Class-theme-options.php:201
+#: classes/Class-theme-options.php:198
 msgid "Debug mode"
 msgstr "Debug-Modus"
 
-#: classes/Class-theme-options.php:208
+#: classes/Class-theme-options.php:205
 msgid "Enable Bootstrap 4 media query debug mode"
 msgstr "Zeige eine Bo"
 
-#: classes/Class-theme-options.php:247
+#: classes/Class-theme-options.php:241
 msgid "Script Loading"
 msgstr "Script-Ladeposition"
 
-#: classes/Class-theme-options.php:254
+#: classes/Class-theme-options.php:248
 msgid "Load the Bootstrap scripts in the head"
 msgstr "Lade die Boostrap-Skripte im <head>"
 
-#: classes/Class-theme-options.php:254
+#: classes/Class-theme-options.php:248
 msgid "Default is footer"
 msgstr "Standard ist Footer"
 
-#: classes/Class-theme-options.php:288
+#: classes/Class-theme-options.php:280
 msgid "Backend Ad-Blocker"
 msgstr "Backend Ad-Blocker"
 
-#: classes/Class-theme-options.php:295
+#: classes/Class-theme-options.php:287
 msgid "Activate the back-end ad-blocker"
 msgstr "Aktiviere den Backend Ad-Blocker"
 
-#: classes/Class-theme-options.php:334
+#: classes/Class-theme-options.php:323
 msgid "Gutenberg-Tips"
 msgstr "Gutenberg Tipps"
 
-#: classes/Class-theme-options.php:341
+#: classes/Class-theme-options.php:330
 msgid "Disable annoying Gutenberg-Tips"
 msgstr "Deaktiviere nervige Gutenberg-Tipps"
 
@@ -1118,26 +1117,6 @@ msgstr "WooCommerce Sidebar, sichtbar auf allen WooCommerce-Seiten."
 msgid "Back to shop"
 msgstr "Zurück zum Shop"
 
-#: hooks/wp-dashboard-setup.php:8
-msgid "Current theme: Bootstrap"
-msgstr "Aktuelles Thema: Bootstrap"
-
-#: hooks/wp-dashboard-setup.php:27
-msgid "Quick controls"
-msgstr "Schnellmenü"
-
-#: hooks/wp-dashboard-setup.php:29
-msgid "Theme-settings"
-msgstr "Theme-Einstellungen"
-
-#: hooks/wp-dashboard-setup.php:30
-msgid "Edit menus"
-msgstr "Menüs bearbeiten"
-
-#: hooks/wp-dashboard-setup.php:31
-msgid "Edit widgets"
-msgstr "Widgets bearbeiten"
-
 #: hooks/wp-title.php:21
 msgid "Page %"
 msgstr "Seite %"
@@ -1162,15 +1141,19 @@ msgstr "Alle Rechte vorbehalten"
 msgid "Start"
 msgstr "Start"
 
-#: templates/loops/loop-archive.php:26 templates/loops/loop-single.php:8
+#: templates/loops/loop-archive.php:13
+msgid "Category image of "
+msgstr "Kategoriebild "
+
+#: templates/loops/loop-archive.php:30 templates/loops/loop-single.php:8
 msgid "Category"
 msgstr "Kategorie"
 
-#: templates/loops/loop-archive.php:45 templates/loops/loop-single.php:24
+#: templates/loops/loop-archive.php:49 templates/loops/loop-single.php:24
 msgid "posted by"
 msgstr "gepostet von"
 
-#: templates/loops/loop-archive.php:60 templates/loops/loop-archive.php:62
+#: templates/loops/loop-archive.php:64 templates/loops/loop-archive.php:66
 #: templates/post-suggestions.php:47
 msgid "Continue to article"
 msgstr "Weiter zum Artikel"
@@ -1191,24 +1174,24 @@ msgstr ""
 "Zeitpunkt wieder."
 
 #. Theme Name of the plugin/theme
-msgid "Bootstrap (V5.1.3)"
-msgstr "Bootstrap (V5.1.3)"
+msgid "Bootstrap (5.3.0)"
+msgstr "Bootstrap (5.3.0)"
 
 #. Theme URI of the plugin/theme
-msgid "https://www.wordpress-geek.com/themes/bootstrap"
-msgstr "https://www.wordpress-geek.com/themes/bootstrap"
+msgid "https://www.tobias-hopp.de/wordpress/wordpress-bootstrap/"
+msgstr "httphttps://www.tobias-hopp.de/wordpress/wordpress-bootstrap/"
 
 #. Description of the plugin/theme
-msgid "WordPress Bootstrap 5 Theme for WP 5.5+."
-msgstr "WordPress Bootstrap 5 Theme für WP 5.5 +."
+msgid "WordPress Bootstrap 5 Theme for WP 6+."
+msgstr "WordPress Bootstrap 5 Theme for WP 6+."
 
 #. Author of the plugin/theme
 msgid "Tobias Hopp"
 msgstr "Tobias Hopp"
 
 #. Author URI of the plugin/theme
-msgid "https://www.wordpress-geek.com/themes"
-msgstr "http://www.wordpress-geek.com/themes"
+msgid "https://www.tobias-hopp.de/"
+msgstr "https://www.tobias-hopp.de/"
 
 #. Template Name of the plugin/theme
 msgid "Full Width"
@@ -1221,6 +1204,24 @@ msgstr "Keine Sidebars"
 #. Template Name of the plugin/theme
 msgid "Two Sidebars"
 msgstr "Zwei Sidebars"
+
+#~ msgid "Current theme: Bootstrap"
+#~ msgstr "Aktuelles Thema: Bootstrap"
+
+#~ msgid "Quick controls"
+#~ msgstr "Schnellmenü"
+
+#~ msgid "Theme-settings"
+#~ msgstr "Theme-Einstellungen"
+
+#~ msgid "Edit menus"
+#~ msgstr "Menüs bearbeiten"
+
+#~ msgid "Edit widgets"
+#~ msgstr "Widgets bearbeiten"
+
+#~ msgid "https://www.wordpress-geek.com/themes"
+#~ msgstr "http://www.wordpress-geek.com/themes"
 
 #~ msgid "Add"
 #~ msgstr "Hinzufügen"
@@ -1353,9 +1354,6 @@ msgstr "Zwei Sidebars"
 
 #~ msgid "This is an alert message"
 #~ msgstr "Dies ist eine Alert-Nachricht"
-
-#~ msgid "https://www.example.com"
-#~ msgstr "http://www.example.com"
 
 #~ msgid "Follow this link."
 #~ msgstr "Folge diesem Link."
