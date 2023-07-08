@@ -1,183 +1,183 @@
 $dark: #212121;
 $light: #888888;
 :root {
-  color-scheme: light dark;
-  /* both supported */
+	color-scheme: light dark;
+	/* both supported */
 }
 
 #the-search-trigger-mobile-1 {
-  margin-left: auto;
-  margin-right: 0;
-  padding-bottom: 9px;
+	margin-left: auto;
+	margin-right: 0;
+	padding-bottom: 9px;
 
-  i,
-  svg {
-    margin-right: 0;
-    margin-left: 0;
-  }
+	i,
+	svg {
+		margin-right: 0;
+		margin-left: 0;
+	}
 }
 
 // Navbar Burgermenü
 .navbar-toggler {
-  // Temp attempt to fix
-  padding: 0;
+	// Temp attempt to fix
+	padding: 0;
 
-  .ham {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    transition: transform 400ms;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+	.ham {
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		transition: transform 400ms;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
 
-  .hamRotate.active {
-    transform: rotate(45deg);
-  }
+	.hamRotate.active {
+		transform: rotate(45deg);
+	}
 
-  .line {
-    fill: none;
-    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke: #ced4da;
-    stroke-width: 5.5;
-    stroke-linecap: round;
-  }
+	.line {
+		fill: none;
+		transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+		stroke: #ced4da;
+		stroke-width: 5.5;
+		stroke-linecap: round;
+	}
 
-  .ham8 {
-    .top {
-      stroke-dasharray: 40 160;
-    }
+	.ham8 {
+		.top {
+		stroke-dasharray: 40 160;
+		}
 
-    .middle {
-      stroke-dasharray: 40 142;
-      transform-origin: 50%;
-      transition: transform 400ms;
-    }
+		.middle {
+		stroke-dasharray: 40 142;
+		transform-origin: 50%;
+		transition: transform 400ms;
+		}
 
-    .bottom {
-      stroke-dasharray: 40 85;
-      transform-origin: 50%;
-      transition: transform 400ms, stroke-dashoffset 400ms;
-    }
-  }
+		.bottom {
+		stroke-dasharray: 40 85;
+		transform-origin: 50%;
+		transition: transform 400ms, stroke-dashoffset 400ms;
+		}
+	}
 
-  .ham8.active {
-    .top {
-      stroke-dashoffset: -64px;
-    }
+	.ham8.active {
+		.top {
+		stroke-dashoffset: -64px;
+		}
 
-    .middle {
-      transform: rotate(90deg);
-    }
+		.middle {
+		transform: rotate(90deg);
+		}
 
-    .bottom {
-      stroke-dashoffset: -64px;
-    }
-  }
+		.bottom {
+		stroke-dashoffset: -64px;
+		}
+	}
 }
 
 a.navbar-brand:link,
 a.navbar-brand:visited {
-  margin-top: -3px;
-  margin-right: 90px;
-  color: var(--bs-light);
+	margin-top: -3px;
+	margin-right: 90px;
+	color: var(--bs-light);
 
-  img {
-    opacity: 1;
-  }
+	img {
+		opacity: 1;
+	}
 }
 
 a.navbar-brand:hover,
 a.navbar-brand:focus {
-  color: var(--bs-primary);
+	color: var(--bs-primary);
 
-  img {
-    opacity: 0.8;
-  }
+	img {
+		opacity: 0.8;
+	}
 }
 
 // The image which can be uploaded
 .brand-image {
-  width: 100%;
-  height: auto;
-  max-width: 200px;
+	width: 100%;
+	height: auto;
+	max-width: 200px;
 }
 
 header {
-  background-color: $dark;
+	background-color: $dark;
 
-  .navbar-nav {
-    .menu-item {
+	.navbar-nav {
+		.menu-item {
 
-      a.nav-link:link,
-      a.nav-link:visited {
-        font-size: 1.25rem;
-        padding: 0.75rem 0;
-        margin-right: 1rem;
-        color: $light;
+		a.nav-link:link,
+		a.nav-link:visited {
+			font-size: 1.25rem;
+			padding: 0.75rem 0;
+			margin-right: 1rem;
+			color: $light;
 
-        svg {
-          margin-top: -3px;
-          margin-right: 0.75rem;
-        }
-      }
+			svg {
+			margin-top: -3px;
+			margin-right: 0.75rem;
+			}
+		}
 
-      a.nav-link:hover,
-      a.nav-link:focus {
-        color: $primary;
-      }
+		a.nav-link:hover,
+		a.nav-link:focus {
+			color: $primary;
+		}
 
-      a.nav-link:active {
-        background: none;
-      }
+		a.nav-link:active {
+			background: none;
+		}
 
-      // Buttons
-      .menu-button {
-        font-size: 1.25rem;
-        padding: 0.75rem 0;
+		// Buttons
+		.menu-button {
+			font-size: 1.25rem;
+			padding: 0.75rem 0;
 
-        i {
-          margin-right: 0.75rem;
-        }
-      }
+			i {
+			margin-right: 0.75rem;
+			}
+		}
 
-      .menu-button:hover {
-        color: $primary;
+		.menu-button:hover {
+			color: $primary;
 
-        i {
-          color: inherit;
-        }
-      }
+			i {
+			color: inherit;
+			}
+		}
 
-      a[target="_blank"]:after {
-        display: inline-block;
-        height: 12px;
-        width: 12px;
-        background-image: url("../../assets/images/external-link.svg");
-        opacity: 0.5;
-        content: "";
-        margin: 0 5px 0 5px;
-        opacity: 0.35;
-      }
+		a[target="_blank"]:after {
+			display: inline-block;
+			height: 12px;
+			width: 12px;
+			background-image: url("../../assets/images/external-link.svg");
+			opacity: 0.5;
+			content: "";
+			margin: 0 5px 0 5px;
+			opacity: 0.35;
+		}
 
-      .dropdown-menu {
-        .menu-item {
-          margin: 0;
-        }
+		.dropdown-menu {
+			.menu-item {
+			margin: 0;
+			}
 
-        // No border under last menu item
-        .menu-item:last-child>a {
-          border-bottom: 0;
-        }
-      }
-    }
+			// No border under last menu item
+			.menu-item:last-child>a {
+			border-bottom: 0;
+			}
+		}
+		}
 
-    .menu-item:last-child {
-      border-bottom: none;
-      margin-right: 0;
-    }
-  }
+		.menu-item:last-child {
+		border-bottom: none;
+		margin-right: 0;
+		}
+	}
 }
 
 .dropdown-menu {
