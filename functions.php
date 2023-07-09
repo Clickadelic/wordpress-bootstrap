@@ -1,6 +1,6 @@
 <?php
 
-// require 'hooks/init.php';
+require 'hooks/init.php';
 
 require 'hooks/woocommerce-actions.php';
 
@@ -97,12 +97,3 @@ require 'hooks/admin-head.php';
 
 // Customizer Output
 require 'hooks/filter-widget-title.php';
-
-class WordPressBootstrap {
-	public function __construct(){
-		add_action('load_theme_textdomain', array( $this, 'init'));
-	}
-	public static function init(){
-		load_theme_textdomain('bootstrap', false, get_template_directory_url('/languages'));
-	}
-}
