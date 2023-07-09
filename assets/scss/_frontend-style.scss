@@ -9,7 +9,6 @@ $light: #888888;
 	margin-left: auto;
 	margin-right: 0;
 	padding-bottom: 9px;
-
 	i,
 	svg {
 		margin-right: 0;
@@ -17,7 +16,7 @@ $light: #888888;
 	}
 }
 
-// Navbar Burgermenü
+// Navbar Burger
 .navbar-toggler {
 	// Temp attempt to fix
 	padding: 0;
@@ -90,8 +89,7 @@ a.navbar-brand:visited {
 
 a.navbar-brand:hover,
 a.navbar-brand:focus {
-	color: var(--bs-primary);
-
+	color: $primary;
 	img {
 		opacity: 0.8;
 	}
@@ -105,7 +103,7 @@ a.navbar-brand:focus {
 }
 
 header {
-	background-color: $dark;
+	background-color: $light;
 
 	.navbar-nav {
 		.menu-item {
@@ -138,7 +136,7 @@ header {
 			padding: 0.75rem 0;
 
 			i {
-			margin-right: 0.75rem;
+				margin-right: 0.75rem;
 			}
 		}
 
@@ -146,7 +144,7 @@ header {
 			color: $primary;
 
 			i {
-			color: inherit;
+				color: inherit;
 			}
 		}
 
@@ -163,45 +161,44 @@ header {
 
 		.dropdown-menu {
 			.menu-item {
-			margin: 0;
+				margin: 0;
 			}
 
-			// No border under last menu item
 			.menu-item:last-child>a {
-			border-bottom: 0;
+				border-bottom: 0;
 			}
 		}
 		}
 
 		.menu-item:last-child {
-		border-bottom: none;
-		margin-right: 0;
+			border-bottom: none;
+			margin-right: 0;
 		}
 	}
 }
 
 .dropdown-menu {
-  margin: 10px;
-  padding: 10px;
+  	margin: 10px;
+  	padding: 10px;
 }
 
 .dropdown-item {
-  color: inherit;
-  border-bottom: 1px solid $gray-400;
-  padding: 10px;
+	color: inherit;
+	border-bottom: 1px solid $gray-400;
+	padding: 10px;
 
-  svg {
-    position: relative;
-    font-size: 0.9rem;
-    color: inherit;
-    margin-top: -3px;
-    margin-right: 0.75rem;
-  }
+	svg {
+		position: relative;
+		font-size: 0.9rem;
+		color: inherit;
+		margin-top: -3px;
+		margin-right: 0.75rem;
+	}
 }
 
 .dropdown-item:hover {
-  background: none;
-  color: $secondary;
+	background: none;
+	color: $secondary;
 }
 
 .dropdown-item:active {
@@ -276,13 +273,13 @@ header {
 // Breadcrumbs
 /////////////////////////////////////////////////
 .breadcrumbs {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid $gray-200;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid $gray-200;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 
   i {
     margin: 0 10px;

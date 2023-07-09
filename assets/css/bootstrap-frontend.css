@@ -11926,7 +11926,7 @@ a.navbar-brand:visited img {
 
 a.navbar-brand:hover,
 a.navbar-brand:focus {
-  color: var(--bs-primary);
+  color: #0d6efd;
 }
 a.navbar-brand:hover img,
 a.navbar-brand:focus img {
@@ -11940,7 +11940,7 @@ a.navbar-brand:focus img {
 }
 
 header {
-  background-color: #212121;
+  background-color: #888888;
 }
 header .navbar-nav .menu-item a.nav-link:link,
 header .navbar-nav .menu-item a.nav-link:visited {
