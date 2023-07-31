@@ -1,7 +1,7 @@
 <?php
 
 function theme_custom_avatar ($avatar_defaults) {
-	$myavatar =  get_template_directory_uri().'/components/images/Default-Avatar.png';
+	$myavatar =  get_template_directory_uri().'/assets/images/Default-Avatar.png';
 	$new_avatar[$myavatar] = __('Bootstrap default avatar', 'bootstrap');
 	$avatar = array_merge($new_avatar, $avatar_defaults);
 	return $avatar;

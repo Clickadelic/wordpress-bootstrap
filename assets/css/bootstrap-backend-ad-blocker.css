@@ -83,3 +83,16 @@ div.fs-notice.promotion,
 #members_review_notice {
   display: none !important;
 }
+
+#toplevel_page_asl_settings .wp-submenu-wrap li:last-child {
+  display: none;
+}
+
+#wp-dreams .wpdreams-box .go-pro,
+#wp-dreams .wpdreams-box .why-pro,
+#wp-dreams .wpdreams-box .socials {
+  display: none !important;
+}
+#wp-dreams #subtabs li:last-child {
+  display: none;
+}

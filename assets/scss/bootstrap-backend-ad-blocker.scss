@@ -127,3 +127,27 @@ div.fs-notice.promotion,
 #members_review_notice {
 	display: none !important;
 }
+
+// Ajax Search Lite
+#toplevel_page_asl_settings {
+	.wp-submenu-wrap {
+		li:last-child {
+			display: none;
+		}
+	}
+}
+
+#wp-dreams {
+	.wpdreams-box {
+		.go-pro,
+		.why-pro,
+		.socials {
+			display: none!important;
+		}
+	}
+	#subtabs {
+		li:last-child {
+			display: none;
+		}
+	}
+}

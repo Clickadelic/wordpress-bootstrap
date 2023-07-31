@@ -1,6 +1,5 @@
 <?php
 
-// Start the loop
 if(have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>
 		<?php $format = get_post_format(); ?>
@@ -9,7 +8,6 @@ if(have_posts()) : ?>
 
 			// Frontpage
 			if(is_front_page()) {
-				// Check user setting, see > https://make.wordpress.org/themes/2014/06/28/correct-handling-of-static-front-page-and-custom-blog-posts-index-template/
 				$page_modus = get_option('show_on_front');
 				if($page_modus == 'page') {
 					get_template_part('templates/loops/loop-front-page');
@@ -55,8 +53,6 @@ if(have_posts()) : ?>
 				if ( is_singular()){
 					wp_enqueue_script('comment-reply');
 				}
-				
-			// Fallback
 			} else {
 				get_template_part('templates/loops/loop-page');
 			}
