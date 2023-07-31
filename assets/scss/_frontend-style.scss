@@ -2,15 +2,13 @@ $dark: #212121;
 $light: #888888;
 :root {
 	color-scheme: light dark;
-	/* both supported */
 }
 
 #the-search-trigger-mobile-1 {
 	margin-left: auto;
 	margin-right: 0;
 	padding-bottom: 9px;
-	i,
-	svg {
+	i, svg {
 		margin-right: 0;
 		margin-left: 0;
 	}
@@ -79,9 +77,11 @@ a.navbar-brand:visited {
 	margin-top: -3px;
 	margin-right: 90px;
 	color: var(--bs-light);
-
-	img {
+	.navbar-brand-logo {
 		opacity: 1;
+		width: 100%;
+		height: auto;
+		max-width: 200px;
 	}
 }
 
@@ -91,12 +91,6 @@ a.navbar-brand:focus {
 	img {
 		opacity: 0.8;
 	}
-}
-
-.navbar-brand-logo {
-	width: 100%;
-	height: auto;
-	max-width: 200px;
 }
 
 header {

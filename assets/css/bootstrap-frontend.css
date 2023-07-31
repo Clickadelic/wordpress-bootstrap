@@ -11846,7 +11846,6 @@ textarea.form-control-lg {
 }
 :root {
   color-scheme: light dark;
-  /* both supported */
 }
 
 #the-search-trigger-mobile-1 {
@@ -11854,8 +11853,7 @@ textarea.form-control-lg {
   margin-right: 0;
   padding-bottom: 9px;
 }
-#the-search-trigger-mobile-1 i,
-#the-search-trigger-mobile-1 svg {
+#the-search-trigger-mobile-1 i, #the-search-trigger-mobile-1 svg {
   margin-right: 0;
   margin-left: 0;
 }
@@ -11911,9 +11909,12 @@ a.navbar-brand:visited {
   margin-right: 90px;
   color: var(--bs-light);
 }
-a.navbar-brand:link img,
-a.navbar-brand:visited img {
+a.navbar-brand:link .navbar-brand-logo,
+a.navbar-brand:visited .navbar-brand-logo {
   opacity: 1;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
 }
 
 a.navbar-brand:hover,
@@ -11923,12 +11924,6 @@ a.navbar-brand:focus {
 a.navbar-brand:hover img,
 a.navbar-brand:focus img {
   opacity: 0.8;
-}
-
-.navbar-brand-logo {
-  width: 100%;
-  height: auto;
-  max-width: 200px;
 }
 
 header {
