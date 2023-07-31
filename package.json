@@ -1,0 +1,33 @@
+{
+  "name": "wordpress-bootstrap",
+  "version": "1.1.0",
+  "description": "A classic WordPress-Theme based on Bootstrap 5.",
+  "main": "index.js",
+  "scripts": {
+    "frontend-css": "sass ./assets/scss/bootstrap-frontend.scss ./assets/css/bootstrap-frontend.css --no-source-map --watch",
+    "editor-css": "sass ./assets/scss/bootstrap-editor-style.scss ./assets/css/bootstrap-editor-style.css --no-source-map --watch",
+    "debugger-css": "sass ./assets/scss/bootstrap-debugger.scss ./assets/css/bootstrap-debugger.css --no-source-map --watch",
+    "backend-css": "sass ./assets/scss/bootstrap-backend.scss ./assets/css/bootstrap-backend.css --no-source-map --watch",
+    "backend-ad-blocker-css": "sass ./assets/scss/bootstrap-backend-ad-blocker.scss ./assets/css/bootstrap-backend-ad-blocker.css --no-source-map --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clickadelic/wordpress-bootstrap.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Bootstrap"
+  ],
+  "author": "Tobias Hopp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clickadelic/wordpress-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Clickadelic/wordpress-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  },
+  "devDependencies": {
+    "sass": "^1.64.1"
+  }
+}
