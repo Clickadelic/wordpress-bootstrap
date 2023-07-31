@@ -1,7 +1,5 @@
 <?php
 
-require 'hooks/init.php';
-
 require 'hooks/woocommerce-actions.php';
 
 require 'hooks/wp-enqueue-scripts.php';
