@@ -4,23 +4,23 @@
 if (!function_exists('theme_template_setup')) {
     function theme_template_setup() {
         load_theme_textdomain( 'bootstrap', get_template_directory() . '/languages');
-        // Register the default header image
-        // TopBar Menus
-        $show_topbar = esc_attr(get_theme_mod('show_topbar'));
-        if($show_topbar) {
-            register_nav_menus(array(
-                'top_left_menu' => __('top left menu', 'bootstrap'),
-                'top_right_menu' => __('top right menu', 'bootstrap'),
-            ));
-        }
-        // Bottom Menus
-        $show_bottombar = esc_attr(get_theme_mod('show_bottombar'));
-        if($show_bottombar) {
-            register_nav_menus(array(
-                'bottom_left_menu' => __('bottom left menu', 'bootstrap'),
-                'bottom_right_menu' => __('bottom right menu', 'bootstrap'),
-            ));
-        }
+        // // Register the default header image
+        // // TopBar Menus
+        // $show_topbar = esc_attr(get_theme_mod('show_topbar'));
+        // if($show_topbar) {
+        //     register_nav_menus(array(
+        //         'top_left_menu' => __('top left menu', 'bootstrap'),
+        //         'top_right_menu' => __('top right menu', 'bootstrap'),
+        //     ));
+        // }
+        // // Bottom Menus
+        // $show_bottombar = esc_attr(get_theme_mod('show_bottombar'));
+        // if($show_bottombar) {
+        //     register_nav_menus(array(
+        //         'bottom_left_menu' => __('bottom left menu', 'bootstrap'),
+        //         'bottom_right_menu' => __('bottom right menu', 'bootstrap'),
+        //     ));
+        // }
         // Main Menus needed
         register_nav_menus(array(
             'primary' => __('main menu', 'bootstrap'),

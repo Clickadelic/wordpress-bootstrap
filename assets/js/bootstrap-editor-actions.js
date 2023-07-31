@@ -1,1 +1,1 @@
-console.log('WPBS4 Theme editor actions loaded');
+console.log('WordPress Bootstrap Theme editor actions loaded');

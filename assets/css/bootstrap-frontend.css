@@ -11925,7 +11925,7 @@ a.navbar-brand:focus img {
   opacity: 0.8;
 }
 
-.brand-image {
+.navbar-brand-logo {
   width: 100%;
   height: auto;
   max-width: 200px;
