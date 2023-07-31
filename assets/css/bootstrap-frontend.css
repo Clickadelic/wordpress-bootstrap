@@ -11927,7 +11927,7 @@ a.navbar-brand:focus img {
 }
 
 header {
-  background-color: #888888;
+  background-color: #212121;
 }
 header .navbar-nav .menu-item a.nav-link:link,
 header .navbar-nav .menu-item a.nav-link:visited {
@@ -12056,9 +12056,9 @@ header .navbar-nav .menu-item:last-child {
 }
 
 .breadcrumbs {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 15px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
   border-bottom: 1px solid #e9ecef;
   overflow: hidden;
   text-overflow: ellipsis;
