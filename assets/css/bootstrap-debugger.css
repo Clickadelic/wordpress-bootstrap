@@ -39,6 +39,6 @@ body::after {
 @media (min-width: 1400px) {
   body::after {
     content: "XXL";
-    background: #fc0fa1;
+    background: rgb(252, 15, 161);
   }
 }
