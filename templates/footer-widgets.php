@@ -1,5 +1,6 @@
 <?php do_action('before_footer_widgets_render'); ?>
 <?php
+
 // See hooks/widgets-init.php
 $widgets_size = get_theme_mod('widgets_size');
 switch ($widgets_size) {

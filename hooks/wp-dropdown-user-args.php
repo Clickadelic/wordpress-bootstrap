@@ -1,6 +1,5 @@
 <?php
-// Redakteure und Autoren in der Autoren Dropdown Liste in Quickedit und im Post anzeigen
-// Core Fix Milestone changed from 5.2 to Future Release
+// still open in mid 2023 :(
 // https://core.trac.wordpress.org/ticket/16841
 function extend_authors_selector_list( $query_args, $r ){
     $blogusers = get_users( array( 'role__in' => array('redakteur', 'autor') ) );
