@@ -11917,7 +11917,6 @@ a.navbar-brand:link,
 a.navbar-brand:visited {
   margin-top: -3px;
   margin-right: 90px;
-  color: var(--bs-light);
 }
 a.navbar-brand:link img,
 a.navbar-brand:visited img {
@@ -11940,14 +11939,14 @@ a.navbar-brand:focus img {
 }
 
 header {
-  background-color: #888888;
+  background-color: #f8f9fa;
 }
 header .navbar-nav .menu-item a.nav-link:link,
 header .navbar-nav .menu-item a.nav-link:visited {
   font-size: 1.25rem;
   padding: 0.75rem 0;
   margin-right: 1rem;
-  color: #888888;
+  color: #f8f9fa;
 }
 header .navbar-nav .menu-item a.nav-link:link svg,
 header .navbar-nav .menu-item a.nav-link:visited svg {
@@ -13328,7 +13327,7 @@ label[for=comment] {
 }
 
 .wrap-footer {
-  background: #212121;
+  background: #212529;
 }
 .wrap-footer .navbar-nav .menu-item a.nav-link:link,
 .wrap-footer .navbar-nav .menu-item a.nav-link:visited {
@@ -13348,14 +13347,14 @@ label[for=comment] {
 }
 .widget-footer ul li a:link,
 .widget-footer ul li a:visited {
-  color: #888888;
+  color: #f8f9fa;
 }
 .widget-footer ul li a:hover,
 .widget-footer ul li a:focus {
   color: #ced4da;
 }
 .wrap-credits {
-  background: #212121;
+  background: #212529;
 }
 .wrap-credits p {
   color: #e9ecef;
@@ -13368,7 +13367,7 @@ label[for=comment] {
 }
 .navbar-credits a:link,
 .navbar-credits a:visited {
-  color: #888888;
+  color: #f8f9fa;
 }
 
 .credits-text {
