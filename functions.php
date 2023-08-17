@@ -40,9 +40,6 @@ require 'hooks/responsive-images.php';
 // Add category image
 require 'hooks/category-image.php';
 
-// Add Editor Style
-require 'hooks/admin-init.php';
-
 // Hide WordPress version in backend for non-admins
 require 'hooks/admin-menu.php';
 
