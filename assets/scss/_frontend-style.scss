@@ -1,5 +1,3 @@
-$dark: #212121;
-$light: #888888;
 :root {
 	color-scheme: light dark;
 }
@@ -76,8 +74,12 @@ a.navbar-brand:link,
 a.navbar-brand:visited {
 	margin-top: -3px;
 	margin-right: 90px;
+<<<<<<< HEAD
 	color: var(--bs-light);
 	.navbar-brand-logo {
+=======
+	img {
+>>>>>>> 0b72a8fa1b0babcf41a4567cad87fb49be239750
 		opacity: 1;
 		width: 100%;
 		height: auto;
