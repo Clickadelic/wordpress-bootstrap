@@ -14,14 +14,6 @@ require 'hooks/after-setup-theme.php';
 // Widgets
 require 'hooks/widgets-init.php';
 
-
-// Title tag
-require 'hooks/wp-title.php';
-
-// Add custom avatar
-
-// Add a custom avatar, no gravatar bullshit please
-
 require 'hooks/avatar-defaults.php';
 
 // Admin enqueque scripts
@@ -100,7 +92,7 @@ class WordPressBootstrap {
 		add_action('wp_before_admin_bar_render', array($this, 'filter_admin_bar_items'));
 		add_action('admin_footer', array($this, 'backend_posts_status_color'));
 		add_action('admin_footer_text', array($this, 'backend_footer_text'));
-		add_filter('wp_title', 'bootstrap_blog_name_title', 10, 2);
+		add_filter('wp_title', 'format_theme_title', 10, 2);
 		add_filter('dynamic_sidebar_params', array($this, 'filter_widget_title_tag'));
 		add_filter('avatar_defaults', 'theme_custom_avatar');
 	}
@@ -136,7 +128,7 @@ class WordPressBootstrap {
 	<?php
 	}
 
-	public static function bootstrap_blog_name_title( $title, $sep ) {
+	public static function format_theme_title( $title, $sep ) {
         if ( is_feed() ) {
             return $title;
         }
