@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bootstrap (5.3.0)\n"
-"POT-Creation-Date: 2023-07-09 01:49+0200\n"
-"PO-Revision-Date: 2023-07-09 01:50+0200\n"
+"POT-Creation-Date: 2023-08-23 20:02+0200\n"
+"PO-Revision-Date: 2023-08-23 20:02+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -912,6 +912,14 @@ msgstr "Abmelden"
 msgid "News"
 msgstr "News"
 
+#: functions.php:147
+msgid "Page %"
+msgstr "Seite %"
+
+#: functions.php:155
+msgid "Theme Avatar (WordPress Bootstrap)"
+msgstr "Theme Avatar (WordPress Bootstrap)"
+
 #: hooks/admin-enqueue-scripts.php:96
 msgid "insert image"
 msgstr "Bild einfügen"
@@ -919,22 +927,6 @@ msgstr "Bild einfügen"
 #: hooks/admin-enqueue-scripts.php:97
 msgid "use this image"
 msgstr "Bild verwenden"
-
-#: hooks/after-setup-theme.php:12
-msgid "top left menu"
-msgstr "oberes linkes Menü"
-
-#: hooks/after-setup-theme.php:13
-msgid "top right menu"
-msgstr "oberes rechtes Menü"
-
-#: hooks/after-setup-theme.php:20
-msgid "bottom left menu"
-msgstr "unteres linkes Menü"
-
-#: hooks/after-setup-theme.php:21
-msgid "bottom right menu"
-msgstr "unteres rechtes Menü"
 
 #: hooks/after-setup-theme.php:26
 msgid "main menu"
@@ -1117,10 +1109,6 @@ msgstr "WooCommerce Sidebar, sichtbar auf allen WooCommerce-Seiten."
 msgid "Back to shop"
 msgstr "Zurück zum Shop"
 
-#: hooks/wp-title.php:21
-msgid "Page %"
-msgstr "Seite %"
-
 #: tag.php:10
 msgid "All posts tagged with"
 msgstr "Alle Beiträge mit Schlagwort"
@@ -1130,14 +1118,14 @@ msgid "Close"
 msgstr "Schließen"
 
 #: templates/credits.php:6
-msgid "Back to top"
-msgstr "Zurück zum Shop"
+msgid "back to top"
+msgstr "zurück nach oben"
 
 #: templates/credits.php:33
 msgid "All rights reserved"
 msgstr "Alle Rechte vorbehalten"
 
-#: templates/custom-logo.php:2
+#: templates/custom-logo.php:8 templates/custom-logo.php:14
 msgid "Start"
 msgstr "Start"
 
@@ -1204,6 +1192,18 @@ msgstr "Keine Sidebars"
 #. Template Name of the plugin/theme
 msgid "Two Sidebars"
 msgstr "Zwei Sidebars"
+
+#~ msgid "top left menu"
+#~ msgstr "oberes linkes Menü"
+
+#~ msgid "top right menu"
+#~ msgstr "oberes rechtes Menü"
+
+#~ msgid "bottom left menu"
+#~ msgstr "unteres linkes Menü"
+
+#~ msgid "bottom right menu"
+#~ msgstr "unteres rechtes Menü"
 
 #~ msgid "Current theme: Bootstrap"
 #~ msgstr "Aktuelles Thema: Bootstrap"

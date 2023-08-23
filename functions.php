@@ -56,6 +56,7 @@ require 'hooks/headless-frontend.php';
 
 
 
+
 /**
  * Check if WooCommerce is active
  * Use in the active_callback when adding the WooCommerce Section to test if WooCommerce is activated
@@ -160,3 +161,9 @@ class WordPressBootstrap {
 }
 
 $WordPressTheme = new WordPressBootstrap();
+
+function checkPlugin(){
+	if(in_array('plugin-directory/plugin-file.php', apply_filters('active_plugins', get_option('active_plugins')))){ 
+		//plugin is activated
+	}
+}
