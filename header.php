@@ -15,10 +15,8 @@
 <?php wp_head(); ?>
 <?php do_action('after_wp_head_render'); ?>
 </head>
-<body id="top" <?php body_class(); ?>>
+<body id="top" <?php body_class("wordpress-bootstrap"); ?>>
 <?php wp_body_open(); ?>
-<header class="wrap-header">
-	<?php get_template_part('templates/navbar'); ?>
-</header>
+<?php get_template_part('templates/navbar'); ?>
 <?php get_template_part('templates/slideshow'); ?>
 <?php get_template_part('templates/breadcrumbs'); ?>

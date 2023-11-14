@@ -3,13 +3,13 @@
 class WordPress_Bootstrap {
 
 	public function __construct(){
-		add_action('load_theme_textdomain', array( $this, 'init_theme'));
+		add_action('load_theme_textdomain', array( $this, 'load_translations'));
 		add_action('wp_before_admin_bar_render', array($this, 'filter_admin_bar_items'));
-		add_action('admin_footer', array($this, 'backend_posts_status_color'));
+		add_action('admin_footer', array($this, 'add_posts_status_color'));
 		add_action('admin_footer_text', array($this, 'backend_footer_text'));
-		add_action('wp_before_admin_bar_render', 'bootstrap_tweakWPAdminBar', 0);
-		add_action('admin_menu', 'bs5_remove_core_version');
-		add_action('admin_enqueue_scripts', 'theme_load_backend_scripts');
+		add_action('wp_before_admin_bar_render', 'load_custom_admin_bar_items', 0);
+		add_action('admin_menu', 'remove_core_version_text');
+		add_action('admin_enqueue_scripts', 'load_theme_backend_scripts');
 
 		add_filter('wp_title', 'format_theme_title', 10, 2);
 		add_filter('dynamic_sidebar_params', array($this, 'filter_widget_title_tag'));
@@ -18,15 +18,15 @@ class WordPress_Bootstrap {
 		
 		add_filter('wp_dropdown_users_args', 'extend_authors_selector_list', 10, 2);
 		// Add classes to pagination links
-		add_filter('next_posts_link_attributes', 'custom_posts_link_attributes');
-		add_filter('previous_posts_link_attributes', 'custom_posts_link_attributes');
+		add_filter('next_posts_link_attributes', 'add_custom_posts_link_attributes');
+		add_filter('previous_posts_link_attributes', 'add_custom_posts_link_attributes');
 		
 		// Disable e-mail notifications after
 		add_filter( 'auto_plugin_update_send_email', '__return_false' ); 
 		add_filter( 'auto_theme_update_send_email', '__return_false' );
 	}
 
-	public static function init_theme(){
+	public static function load_translations(){
 		load_theme_textdomain('wordpress-bootstrap', false, esc_url(get_template_directory_uri('/languages')));
 	}
 
@@ -47,7 +47,7 @@ class WordPress_Bootstrap {
 		echo '<span class="backend-footer-credits">powered by <a href="https://www.tobias-hopp.de" title="Tobias Hopp" target="_blank">Tobias Hopp</a></span>';
 	}
 
-	public static function backend_posts_status_color(){
+	public static function add_posts_status_color(){
 		?>	
 		<style type="text/css" id="wordpress-bootstrap-colored-admin-columns">
 		  .status-draft{background: #fce3f2 !important;}
@@ -89,7 +89,7 @@ class WordPress_Bootstrap {
 		return $avatar;
 	}
 
-	public static function bootstrap_tweakWPAdminBar() {
+	public static function load_custom_admin_bar_items() {
         global $wp_admin_bar;
         $wp_admin_bar->remove_menu('wp-logo');
         $wp_admin_bar->remove_menu('view-site');
@@ -108,17 +108,17 @@ class WordPress_Bootstrap {
         }
     }
 
-	public static function bs5_remove_core_version() {
+	public static function remove_core_version_text() {
 		if(!current_user_can('manage_options')) {
 			remove_filter('update_footer', 'core_update_footer'); 
 		}
 	}
 
-	public static function custom_posts_link_attributes() {
+	public static function add_custom_posts_link_attributes() {
     	return 'class="btn btn-primary btn-pagination"';
 	}
 
-	public static function theme_load_backend_scripts() {
+	public static function load_theme_backend_scripts() {
 		global $pagenow, $typenow, $taxnow;
 		$dir = get_template_directory_uri();
 
@@ -224,13 +224,6 @@ class WordPress_Bootstrap {
 		}
 	}
 
-	public static function is_woocommerce_active() {
-		if ( class_exists( 'woocommerce' ) ) {
-			return true;
-		}
-		return false;
-	}
-
 	public static function extend_authors_selector_list( $query_args, $r ){
 		$blogusers = get_users( array( 'role__in' => array('redakteur', 'autor') ) );
 
@@ -245,18 +238,25 @@ class WordPress_Bootstrap {
 
 		return $query_args;
 	}
+
+	public static function is_woocommerce_active() {
+		if ( class_exists( 'woocommerce' ) ) {
+			return true;
+		}
+		return false;
+	}
+
+	public static function is_plugin_active(){
+		if(in_array('plugin-directory/plugin-file.php', apply_filters('active_plugins', get_option('active_plugins')))){ 
+			//plugin is activated
+		}
+	}
 }
 
 $WordPress_Bootstrap = new WordPress_Bootstrap();
 
 if($WordPress_Bootstrap->is_woocommerce_active()){
 	require 'hooks/woocommerce-hooks.php';
-}
-
-function checkPlugin(){
-	if(in_array('plugin-directory/plugin-file.php', apply_filters('active_plugins', get_option('active_plugins')))){ 
-		//plugin is activated
-	}
 }
 
 require 'hooks/wp-enqueue-scripts.php';
