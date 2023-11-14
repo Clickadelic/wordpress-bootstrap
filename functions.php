@@ -1,66 +1,5 @@
 <?php
 
-require 'hooks/wp-enqueue-scripts.php';
-
-require 'hooks/customize-register-custom-logo.php';
-
-// Add Menu, widgets, remove unused stuff etc.
-require 'hooks/after-setup-theme.php';
-
-// Widgets
-require 'hooks/widgets-init.php';
-
-// Admin enqueque scripts
-require 'hooks/admin-enqueue-scripts.php';
-
-// Numeric posts pagination
-require 'hooks/custom-pagination.php';
-
-// Gutenberg editor enqueue assets
-require 'hooks/enqueue-block-editor-assets.php';
-
-// Custom excerpt length
-require 'hooks/excerpt-length.php';
-
-// YouTube Videos responsive
-require 'hooks/embed-oembed-html.php';
-
-// Responsive images
-require 'hooks/responsive-images.php';
-
-// Add category image
-require 'hooks/category-image.php';
-
-// Navwalker with Bootstrap icons capability
-require 'classes/Class-bootstrap-navwalker.php';
-
-// Theme options
-require 'classes/Class-theme-options.php';
-
-// additional Theme Functions
-require 'hooks/theme-functions.php';
-
-/**
- * Check if WooCommerce is active
- * @return boolean
- */
-function is_woocommerce_active() {
-	if ( class_exists( 'woocommerce' ) ) {
-		return true;
-	}
-	return false;
-}
-
-if(is_woocommerce_active()){
-	require 'hooks/woocommerce-hooks.php';
-}
-
-// Disable "Update done" notification
-require 'hooks/disable-update-message.php';
-
-// Core Fix, show users in Author dropdown
-require 'hooks/wp-dropdown-user-args.php';
-
 class WordPress_Bootstrap {
 
 	public function __construct(){
@@ -70,13 +9,21 @@ class WordPress_Bootstrap {
 		add_action('admin_footer_text', array($this, 'backend_footer_text'));
 		add_action('wp_before_admin_bar_render', 'bootstrap_tweakWPAdminBar', 0);
 		add_action('admin_menu', 'bs5_remove_core_version');
+		add_action('admin_enqueue_scripts', 'theme_load_backend_scripts');
 
 		add_filter('wp_title', 'format_theme_title', 10, 2);
 		add_filter('dynamic_sidebar_params', array($this, 'filter_widget_title_tag'));
 		add_filter('avatar_defaults', 'theme_custom_avatar');
 
+		
+		add_filter('wp_dropdown_users_args', 'extend_authors_selector_list', 10, 2);
+		// Add classes to pagination links
 		add_filter('next_posts_link_attributes', 'custom_posts_link_attributes');
 		add_filter('previous_posts_link_attributes', 'custom_posts_link_attributes');
+		
+		// Disable e-mail notifications after
+		add_filter( 'auto_plugin_update_send_email', '__return_false' ); 
+		add_filter( 'auto_theme_update_send_email', '__return_false' );
 	}
 
 	public static function init_theme(){
@@ -170,12 +117,184 @@ class WordPress_Bootstrap {
 	public static function custom_posts_link_attributes() {
     	return 'class="btn btn-primary btn-pagination"';
 	}
+
+	public static function theme_load_backend_scripts() {
+		global $pagenow, $typenow, $taxnow;
+		$dir = get_template_directory_uri();
+
+		$ad_blocker = get_theme_option('ad_blocker');
+		$disable_tips = get_theme_option('disable_tips');
+		
+		// AdBlocker CSS
+		wp_register_style(
+			'bootstrap-backend-ad-blocker',
+			$dir . '/assets/css/bootstrap-backend-ad-blocker.css'
+		);
+
+		// Backend Style incl. Bootstrap 5
+		wp_register_style(
+			'bootstrap-backend-style',
+			$dir.'/assets/css/bootstrap-backend.css'
+		);
+		// Popper JS
+		wp_register_script(
+			'bootstrap-popper-min-script',
+			$dir.'/assets/js/popper.min.js',
+			array('jquery'),
+			NULL,
+			true
+		);
+		// Bootstrap Min JS
+		wp_register_script(
+			'bootstrap-bootstrap-min-script',
+			$dir.'/assets/js/bootstrap.min.js',
+			array('jquery'),
+			NULL,
+			true
+		);
+		// Theme Backend Actions
+		wp_register_script(
+			'bootstrap-backend-actions',
+			$dir.'/assets/js/bootstrap-backend-actions.js',
+			array('jquery'),
+			NULL,
+			true
+		);
+		// Disable Gutenberg Tips
+		wp_register_script(
+			'bootstrap-disable-tips',
+			$dir.'/assets/js/disable-gutenberg-tips.js',
+			NULL,
+			NULL,
+			true
+		);
+		
+		// Load AdBlocker CSS
+		if($ad_blocker) {
+			wp_enqueue_style('bootstrap-backend-ad-blocker');
+		}
+
+		// Dashboard Widget
+		if($pagenow === 'index.php') {
+			wp_enqueue_style('bootstrap-backend-style');
+			wp_enqueue_script('bootstrap-bootstrap-min-script');
+			wp_enqueue_script('bootstrap-popper-min-script');
+			wp_enqueue_script('bootstrap-backend-actions');
+		}
+
+		// Settings Page
+		if($pagenow === 'themes.php' && ( isset($_GET['page']) && $_GET['page'] === 'theme-settings' )) {
+			wp_enqueue_style('bootstrap-datetime-picker-style');
+			wp_enqueue_style('bootstrap-backend-style');
+			wp_enqueue_script('bootstrap-bootstrap-min-script');
+			wp_enqueue_script('bootstrap-popper-min-script');
+			wp_enqueue_script('bootstrap-moment');
+			wp_enqueue_script('bootstrap-datetime-picker');
+			wp_enqueue_script('bootstrap-backend-actions');
+		}
+
+		// User Profile Page Backend
+		if($pagenow === 'profile.php') {
+			wp_enqueue_style('bootstrap-backend-style');
+			wp_enqueue_script('bootstrap-bootstrap-min-script');
+			wp_enqueue_script('bootstrap-popper-min-script');
+			wp_enqueue_script('bootstrap-backend-actions'); 
+		}
+
+		// Category image upload
+		if(($pagenow === 'edit-tags.php' && $taxnow === 'category') || ($pagenow === 'term.php' && $taxnow === 'category')){
+			wp_enqueue_media();
+			wp_enqueue_style('bootstrap-backend-style');
+			wp_enqueue_script('bootstrap-bootstrap-min-script');
+			wp_enqueue_script('bootstrap-popper-min-script');
+			wp_enqueue_script('bootstrap-backend-actions');
+			wp_localize_script('bootstrap-backend-actions', 'cat_meta',
+				array(
+					'title' => __('insert image', 'bootstrap' ),
+					'button' => __('use this image', 'bootstrap' )
+				)
+			);
+		}
+
+		// Disable hints
+		if($pagenow === 'post.php') {
+			if($disable_tips == 'on') {
+				wp_enqueue_script( 'bootstrap-disable-tips' );
+			}
+		}
+	}
+
+	public static function is_woocommerce_active() {
+		if ( class_exists( 'woocommerce' ) ) {
+			return true;
+		}
+		return false;
+	}
+
+	public static function extend_authors_selector_list( $query_args, $r ){
+		$blogusers = get_users( array( 'role__in' => array('redakteur', 'autor') ) );
+
+		foreach ( $blogusers as $user ) {
+			if( ! $user->has_cap( 'level_1' ) ) {
+				$user->add_cap('level_1');
+			}
+		}
+
+		$query_args['who'] = '';
+		$query_args['role__in'] = array('administrator','redakteur','autor');
+
+		return $query_args;
+	}
 }
 
 $WordPress_Bootstrap = new WordPress_Bootstrap();
+
+if($WordPress_Bootstrap->is_woocommerce_active()){
+	require 'hooks/woocommerce-hooks.php';
+}
 
 function checkPlugin(){
 	if(in_array('plugin-directory/plugin-file.php', apply_filters('active_plugins', get_option('active_plugins')))){ 
 		//plugin is activated
 	}
 }
+
+require 'hooks/wp-enqueue-scripts.php';
+
+require 'hooks/customize-register-custom-logo.php';
+
+// Add Menu, widgets, remove unused stuff etc.
+require 'hooks/after-setup-theme.php';
+
+// Widgets
+require 'hooks/widgets-init.php';
+
+// Admin enqueque scripts
+require 'hooks/admin-enqueue-scripts.php';
+
+// Numeric posts pagination
+require 'hooks/custom-pagination.php';
+
+// Gutenberg editor enqueue assets
+require 'hooks/enqueue-block-editor-assets.php';
+
+// Custom excerpt length
+require 'hooks/excerpt-length.php';
+
+// YouTube Videos responsive
+require 'hooks/embed-oembed-html.php';
+
+// Responsive images
+require 'hooks/responsive-images.php';
+
+// Add category image
+require 'hooks/category-image.php';
+
+// Navwalker with Bootstrap icons capability
+require 'classes/Class-bootstrap-navwalker.php';
+
+// Theme options
+require 'classes/Class-theme-options.php';
+
+// additional Theme Functions
+require 'hooks/theme-functions.php';
