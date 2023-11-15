@@ -3,13 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col">
-				<?php
-				
-					echo do_shortcode('[smartslider3 slider="1"]');
-				
-				
-				
-				?>
+				<?php // Your shortcode ?>
 			</div>
 		</div>
 	</div>

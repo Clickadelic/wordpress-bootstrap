@@ -19,16 +19,16 @@
 			<div class="collapse navbar-collapse" id="bootstrap-navbar">
 				<?php do_action('before_collapse_open_render'); ?>
 				<?php
-					wp_nav_menu([
-						'menu'            => 'primary',
-						'theme_location'  => 'primary',
-						'container'       => false,
-						'menu_id'         => 'main-menu',
-						'menu_class'      => 'navbar-nav ms-auto',
-						'depth'           => 2,
-						'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-						'walker'          => new WP_Bootstrap_Navwalker()
-					]);
+					// wp_nav_menu([
+					// 	'menu'            => 'primary',
+					// 	'theme_location'  => 'primary',
+					// 	'container'       => false,
+					// 	'menu_id'         => 'main-menu',
+					// 	'menu_class'      => 'navbar-nav ms-auto',
+					// 	'depth'           => 2,
+					// 	'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+					// 	'walker'          => new WP_Bootstrap_Navwalker()
+					// ]);
 				?>
 				<?php do_action('after_collapse_open_render'); ?>
 			</div>

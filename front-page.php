@@ -22,7 +22,6 @@
 					));
 				?>
 			</main>
-			<?php manage_right_sidebar(); ?>
 		</div>
 	</div>
 </div>

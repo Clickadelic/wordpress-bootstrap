@@ -5,7 +5,7 @@
 			<main class="col-md-9">
 				<?php get_template_part('the-loop'); ?>
 			</main>
-			<?php manage_right_sidebar(); ?>
+			<?php // manage_right_sidebar(); ?>
 		</div>
 	</div>
 </div>

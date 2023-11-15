@@ -11,7 +11,7 @@
 				<?php get_template_part('the-loop'); ?>
 				<?php custom_pagination_layout(); ?>
 			</main>
-			<?php manage_right_sidebar(); ?>
+			<?php // manage_right_sidebar(); ?>
 		</div>
 	</div>
 </div>

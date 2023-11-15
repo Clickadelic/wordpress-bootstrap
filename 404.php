@@ -2,7 +2,7 @@
 <div class="wrap-content">
 	<div class="container-md">
 		<div class="row">
-			<main class="col-md-9">
+			<main class="offset-md-4 col-md-8">
 				<article class="page page-404">
 					<div class="row">
 						<div class="col">
@@ -19,30 +19,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-12 error404-searchbar mb-4">
-							<h2><?php _e('Maybe a search can help', 'bootstrap'); ?>?</h2>
-							<?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 error404-page-menu">
-							<h2 class="title"><?php _e('or these links', 'bootstrap'); ?>&hellip;</h2>
-							<?php
-							$errormenu = array(
-								'theme_location' => 'errormenu',
-								'container' => false,
-								'menu_class' => 'nav',
-								'depth' => 2,
-								'walker' => new wp_bootstrap_navwalker()
-							);
-						?>
-						<?php echo wp_nav_menu($errormenu); ?>
-						</div>
-					</div>
 				</article>	
 			</main>
-			<?php manage_right_sidebar(); ?>
 		</div>
 	</div>
 </div>
