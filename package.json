@@ -4,10 +4,9 @@
 	"description": "A classic WordPress-Theme based on Bootstrap 5+.",
 	"main": "index.js",
 	"scripts": {
-		"frontend-css": "sass ./assets/scss/bootstrap-frontend.scss ./assets/css/bootstrap-frontend.css --no-source-map --watch",
-		"editor-css": "sass ./assets/scss/bootstrap-editor-style.scss ./assets/css/bootstrap-editor-style.css --no-source-map --watch",
+		"frontend-css": "sass ./assets/scss/frontend/bootstrap-frontend.scss ./assets/css/bootstrap-frontend.css --no-source-map --watch",
 		"debugger-css": "sass ./assets/scss/bootstrap-debugger.scss ./assets/css/bootstrap-debugger.css --no-source-map --watch",
-		"backend-css": "sass ./assets/scss/bootstrap-backend.scss ./assets/css/bootstrap-backend.css --no-source-map --watch",
+		"backend-css": "sass ./assets/scss/backend/bootstrap-backend.scss ./assets/css/bootstrap-backend.css --no-source-map --watch",
 		"backend-ad-blocker-css": "sass ./assets/scss/bootstrap-backend-ad-blocker.scss ./assets/css/bootstrap-backend-ad-blocker.css --no-source-map --watch"
 	},
 	"repository": {

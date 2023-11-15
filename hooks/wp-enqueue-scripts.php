@@ -14,7 +14,7 @@ if (!function_exists('theme_script_setup')) {
 
         // The styles > Default and Bootstrap Five
         wp_enqueue_style('bootstrap-defaults', get_template_directory_uri() . '/style.css', array(), '', 'all');
-        wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap-frontend.css', array(), '', 'all');
+        wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/css/frontend/bootstrap-frontend.css', array(), '', 'all');
 
         if($debug_mode == 'on') {
             wp_enqueue_style('bootstrap-debugger', get_template_directory_uri() . '/assets/css/bootstrap-debugger.css', array(), '', 'screen');

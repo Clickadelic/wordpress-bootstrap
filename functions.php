@@ -10,12 +10,12 @@ class WordPress_Bootstrap {
 		add_action('wp_before_admin_bar_render', 'load_custom_admin_bar_items', 0);
 		add_action('admin_menu', 'remove_core_version_text');
 		add_action('admin_enqueue_scripts', 'load_theme_backend_scripts');
+		add_action('customize_register', 'bootstrap_custom_logo');
 
+		add_filter('the_content', 'add_bootstrap_image_responsive_class');
 		add_filter('wp_title', 'format_theme_title', 10, 2);
 		add_filter('dynamic_sidebar_params', array($this, 'filter_widget_title_tag'));
 		add_filter('avatar_defaults', 'theme_custom_avatar');
-
-		
 		add_filter('wp_dropdown_users_args', 'extend_authors_selector_list', 10, 2);
 		// Add classes to pagination links
 		add_filter('next_posts_link_attributes', 'add_custom_posts_link_attributes');
@@ -251,6 +251,36 @@ class WordPress_Bootstrap {
 			//plugin is activated
 		}
 	}
+
+	public static function bootstrap_custom_logo($wp_customize) {
+
+		$wp_customize->add_setting('custom_logo_upload');
+		$wp_customize->add_setting('author_card_background');
+
+		$wp_customize->add_section('header_image', array(
+			'title' => __('Image upload', 'bootstrap'),
+			'description' => __('Upload images or a logo of your company or your product.', 'bootstrap'),
+			'priority' => 30
+		));
+		$wp_customize->add_control(new WP_Customize_Image_Control( $wp_customize, 'logo-upload', array(
+			'label'    => __('Your current logo', 'bootstrap'),
+			'section'  => 'header_image',
+			'settings' => 'custom_logo_upload'
+		)));
+		$wp_customize->add_control(new WP_Customize_Image_Control( $wp_customize, 'author-card-background', array(
+			'label'    => __('Author background image', 'bootstrap'),
+			'section'  => 'header_image',
+			'settings' => 'author_card_background'
+		)));
+	}
+
+	public static function add_bootstrap_image_responsive_class($content) {
+		global $post;
+		$pattern ="/<img(.*?)class=\"(.*?)\"(.*?)>/i";
+		$replacement = '<img$1class="$2 img-fluid"$3>';
+		$content = preg_replace($pattern, $replacement, $content);
+		return $content;
+	}
 }
 
 $WordPress_Bootstrap = new WordPress_Bootstrap();
@@ -260,8 +290,6 @@ if($WordPress_Bootstrap->is_woocommerce_active()){
 }
 
 require 'hooks/wp-enqueue-scripts.php';
-
-require 'hooks/customize-register-custom-logo.php';
 
 // Add Menu, widgets, remove unused stuff etc.
 require 'hooks/after-setup-theme.php';
