@@ -5,13 +5,14 @@ class WordPress_Bootstrap {
 	public function __construct(){
 		add_action('load_theme_textdomain', array( $this, 'load_translations'));
 		add_action('wp_before_admin_bar_render', array($this, 'filter_admin_bar_items'));
+		add_action('wp_enqueue_scripts', 'theme_script_setup');
 		add_action('admin_footer', array($this, 'add_posts_status_color'));
 		add_action('admin_footer_text', array($this, 'backend_footer_text'));
 		add_action('wp_before_admin_bar_render', 'load_custom_admin_bar_items', 0);
 		add_action('admin_menu', 'remove_core_version_text');
 		add_action('admin_enqueue_scripts', 'load_theme_backend_scripts');
 		add_action('customize_register', 'bootstrap_custom_logo');
-
+		// Filter
 		add_filter('the_content', 'add_bootstrap_image_responsive_class');
 		add_filter('wp_title', 'format_theme_title', 10, 2);
 		add_filter('dynamic_sidebar_params', array($this, 'filter_widget_title_tag'));
@@ -20,7 +21,6 @@ class WordPress_Bootstrap {
 		// Add classes to pagination links
 		add_filter('next_posts_link_attributes', 'add_custom_posts_link_attributes');
 		add_filter('previous_posts_link_attributes', 'add_custom_posts_link_attributes');
-		
 		// Disable e-mail notifications after
 		add_filter( 'auto_plugin_update_send_email', '__return_false' ); 
 		add_filter( 'auto_theme_update_send_email', '__return_false' );
@@ -281,6 +281,30 @@ class WordPress_Bootstrap {
 		$content = preg_replace($pattern, $replacement, $content);
 		return $content;
 	}
+
+	public static function theme_script_setup() {
+        // Script loading position
+        $is_loaded_in_footer = true;
+        $script_setting = get_theme_option('load_scripts_in_header');
+        $debug_mode = get_theme_option('debug_mode');
+
+        if($script_setting == 'on') {
+            $is_loaded_in_footer = false;
+        }
+
+        // The styles > Default and Bootstrap Five
+        wp_enqueue_style('bootstrap-defaults', get_template_directory_uri() . '/style.css', array(), '', 'all');
+        wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap-frontend.css', array(), '', 'all');
+
+        if($debug_mode == 'on') {
+            wp_enqueue_style('bootstrap-debugger', get_template_directory_uri() . '/assets/css/bootstrap-debugger.css', array(), '', 'screen');
+        }
+        
+        // Register scripts
+        wp_enqueue_script('bootstrap-popper-min', get_template_directory_uri() . '/assets/js/popper.min.js', array('jquery'), '', $is_loaded_in_footer);
+        wp_enqueue_script('bootstrap-bootstrap-min', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('bootstrap-popper-min'), '', $is_loaded_in_footer);
+        wp_enqueue_script('bootstrap-frontend-actions', get_template_directory_uri() . '/assets/js/bootstrap-frontend-actions.js', array('bootstrap-popper-min', 'bootstrap-bootstrap-min'), '', $is_loaded_in_footer);
+    }
 }
 
 $WordPress_Bootstrap = new WordPress_Bootstrap();
@@ -288,8 +312,6 @@ $WordPress_Bootstrap = new WordPress_Bootstrap();
 if($WordPress_Bootstrap->is_woocommerce_active()){
 	require 'hooks/woocommerce-hooks.php';
 }
-
-require 'hooks/wp-enqueue-scripts.php';
 
 // Add Menu, widgets, remove unused stuff etc.
 require 'hooks/after-setup-theme.php';
